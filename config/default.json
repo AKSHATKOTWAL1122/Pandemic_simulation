@@ -3,5 +3,7 @@
 	"tick_seconds": 60,
 	"days": 30,
 	"population": 1000,
-	"ticks_per_frame": 1
+	"ticks_per_frame": 1,
+	"walk_road_cost": 4,
+	"path_cache_size": 2000
 }
