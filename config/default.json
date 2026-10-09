@@ -3,7 +3,8 @@
 	"tick_seconds": 60,
 	"days": 30,
 	"population": 1000,
-	"ticks_per_frame": 1,
+	"ticks_per_second": 10,
+	"tile_metres": 4,
 	"walk_road_cost": 4,
 	"path_cache_size": 2000,
 	"household_size_weights": [30, 30, 20, 15, 5],
@@ -23,5 +24,8 @@
 	"candidate_count": 5,
 	"hunger_restaurant_share": 0.7,
 	"social_destination_weights": { "friend_home": 50, "restaurant": 25, "nightclub": 25 },
-	"nightclub_hours": [19, 3]
+	"nightclub_hours": [19, 3],
+	"walk_speed_mps": 1.4,
+	"indoor_wander_minutes": 10,
+	"min_outing_minutes": 60
 }

@@ -1,14 +1,18 @@
-[gd_scene load_steps=5 format=3]
+[gd_scene load_steps=6 format=3]
 
 [ext_resource type="Script" path="res://scripts/core/sim.gd" id="1_sim"]
 [ext_resource type="Script" path="res://scripts/ui/time_label.gd" id="2_label"]
 [ext_resource type="Script" path="res://scripts/world/map_view.gd" id="3_map"]
 [ext_resource type="Script" path="res://scripts/ui/city_camera.gd" id="4_camera"]
+[ext_resource type="Script" path="res://scripts/npc/npc_view.gd" id="5_npcs"]
 
 [node name="Main" type="Node2D"]
 
 [node name="MapView" type="Node2D" parent="."]
 script = ExtResource("3_map")
+
+[node name="NpcView" type="Node2D" parent="."]
+script = ExtResource("5_npcs")
 
 [node name="Camera" type="Camera2D" parent="."]
 script = ExtResource("4_camera")

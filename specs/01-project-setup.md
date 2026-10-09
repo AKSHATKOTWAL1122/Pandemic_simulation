@@ -27,12 +27,12 @@ Autoloads:
 - `SimClock` — `tick: int`, and helpers `day()`, `weekday()` (0 = Mon), `hour()`, `minute()`, all derived from `tick * tick_seconds`. `advance()` adds 1 and emits `ticked(tick)`.
 - `Rng` — one `RandomNumberGenerator` seeded from `seed`. Helpers: `randi_range`, `randf`, `chance(p)`, `pick(array)`, `shuffle(array)`, `weighted_pick(weights)`.
 
-`Sim` node in `main.tscn`: in `_process`, if not paused, runs `ticks_per_frame` ticks. Each tick calls the systems in a fixed order (filled in by later specs) and then `SimClock.advance()`.
+`Sim` node in `main.tscn`: in `_process`, if not paused, runs `ticks_per_second` ticks per real second (changed from `ticks_per_frame` in spec 08). Each tick calls the systems in a fixed order (filled in by later specs) and then `SimClock.advance()`.
 
 Test runner: `tests/run_all.gd` extends `SceneTree`, runs every `tests/test_*.gd`, prints pass/fail, exits with code 0 or 1.
 
 ## Config keys
-`seed` 12345 · `tick_seconds` 60 · `days` 30 · `population` 1000 · `ticks_per_frame` 1
+`seed` 12345 · `tick_seconds` 60 · `days` 30 · `population` 1000 · `ticks_per_second` 10
 
 ## Not in this spec
 Map, NPCs, UI beyond a time label.
