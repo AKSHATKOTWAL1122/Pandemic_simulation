@@ -15,15 +15,22 @@ Two `AStarGrid2D` grids, 4 directions (no diagonals):
 | Drive | ROAD | 1 |
 | | everything else | solid |
 
-API `Paths` (`scripts/world/paths.gd`):
+API `Paths` (`scripts/world/paths.gd`, `class_name Paths extends RefCounted`):
+- `static build(map: CityMap, buildings: BuildingRegistry, config: ConfigStore) -> Paths` — builds both grids and precomputes `nearest_road` for every entrance. Takes its inputs as arguments so tests can build it without autoloads.
 - `walk(from: Vector2i, to: Vector2i) -> Array[Vector2i]`
-- `drive(from: Vector2i, to: Vector2i) -> Array[Vector2i]`
-- `nearest_road(tile: Vector2i) -> Vector2i` — BFS from the tile to the closest ROAD tile. Precompute for every entrance.
-- `length(path) -> int` tiles.
+- `drive(from: Vector2i, to: Vector2i) -> Array[Vector2i]` — both ends must be ROAD tiles (use `nearest_road`).
+- Paths include both end tiles. No route (an end out of bounds, solid, or unreachable) → empty array.
+- `nearest_road(tile: Vector2i) -> Vector2i` — BFS (neighbour order up, right, down, left) over walk-grid tiles from the tile to the closest ROAD tile; `Paths.NO_TILE` `(-1, -1)` if none. Precomputed for every entrance; other tiles are computed on first call and cached.
+- `length(path: Array[Vector2i]) -> int` — steps (tiles moved) = `path.size() - 1`, 0 for an empty path.
 
-Optional cache: last 2,000 `(from, to)` results per grid.
+Cache: last `path_cache_size` `(from, to)` results per grid (ring buffer, oldest dropped first; 0 disables). Callers get a copy, so changing a returned path never changes the cache. Results don't depend on the cache.
+
+Wiring (on `main`, after merge): autoload `World` gets `var paths: Paths`, set after `map` and `buildings` with `paths = Paths.build(map, buildings, Config)`. Specs 08 and 09 use `World.paths`.
 
 Moving inside a building does not use these grids (spec 08).
+
+## Config keys
+`walk_road_cost` 4 (walk-grid weight of a ROAD tile; SIDEWALK and entrances are 1) · `path_cache_size` 2000
 
 ## Not in this spec
 Moving anything along the paths.
