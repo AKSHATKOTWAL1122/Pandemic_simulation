@@ -3,7 +3,9 @@ extends Node2D
 
 const TILE_PX := 16.0
 const RADIUS_PX := 3.0
-const DEFAULT_COLOUR := Color("#7A8CA5")
+## Spec 11 state colours, indexed by NPC.Health (S, E, I, R).
+const HEALTH_COLOURS: Array[Color] = [Color("#7A8CA5"), Color("#F2C14E"), Color("#D7263D"), Color("#3BB273")]
+const IMMUNE_COLOUR := Color("#2E86AB")
 const CAR_SIZE_PX := Vector2(10, 6)
 const PARKED_COLOUR := Color(0.1, 0.1, 0.1, 0.6)
 
@@ -38,6 +40,7 @@ func _draw() -> void:
 			draw_circle(p, RADIUS_PX, colour_of(npc))
 
 
-## Overridden by spec 11 to colour by SEIR state.
-func colour_of(_npc: NPC) -> Color:
-	return DEFAULT_COLOUR
+func colour_of(npc: NPC) -> Color:
+	if npc.immune_forever:
+		return IMMUNE_COLOUR
+	return HEALTH_COLOURS[npc.health]

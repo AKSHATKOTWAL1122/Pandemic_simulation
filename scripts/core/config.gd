@@ -23,6 +23,16 @@ func load_file(path: String) -> void:
 	_values = parsed
 
 
+## Overrides a value (experiments, tests). A Dictionary value is merged into an existing one.
+func set_value(key: String, value: Variant) -> void:
+	if value is Dictionary and _values.get(key) is Dictionary:
+		var merged: Dictionary = (_values[key] as Dictionary).duplicate(true)
+		merged.merge(value, true)
+		_values[key] = merged
+	else:
+		_values[key] = value
+
+
 func has_value(key: String) -> bool:
 	return _values.has(key)
 

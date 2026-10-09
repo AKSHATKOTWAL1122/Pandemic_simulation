@@ -14,6 +14,9 @@ var desires: Desires
 var fleet: CarFleet
 var behaviour: NpcBehaviour
 var contacts: ContactTracker
+var epidemic: Epidemic
+## Called after every tick with (tick, contact events, infection events).
+var listeners: Array[Callable] = []
 
 
 func _init(p_config: ConfigStore, p_rng: SeededRng, p_clock: GameClock, p_buildings: BuildingRegistry, p_paths: Paths) -> void:
@@ -30,6 +33,7 @@ func _init(p_config: ConfigStore, p_rng: SeededRng, p_clock: GameClock, p_buildi
 	fleet = CarFleet.create(population, buildings, paths)
 	behaviour = NpcBehaviour.new(config, clock, rng, buildings, paths, population, timetable, desires, fleet)
 	contacts = ContactTracker.new(config, population.npcs)
+	epidemic = Epidemic.new(config, population.npcs, rng)
 
 
 ## Builds a self-contained run (own RNG, clock and buildings) for tests and batch runs.
@@ -43,7 +47,16 @@ func step() -> void:
 	var tick := clock.tick
 	behaviour.step(tick)
 	contacts.step(tick)
+	epidemic.step(tick, contacts)
+	for listener in listeners:
+		listener.call(tick, contacts.events, epidemic.events)
+	epidemic.events.clear()
 	clock.advance()
+
+
+## Infects an NPC now (the Infect button, patient zero). Logged with the coming tick.
+func infect(npc_id: int) -> void:
+	epidemic.infect(population.npcs[npc_id], clock.tick)
 
 
 ## Frees the Node-based helpers a standalone run owns.

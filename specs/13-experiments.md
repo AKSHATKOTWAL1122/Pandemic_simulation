@@ -34,7 +34,7 @@ Seeds: run `i` uses `base_seed + i`. To compare two setups, give both files the 
 Batch run: `godot --path . -- --experiment experiments/<name>.json` runs every run one after another, in the visual window at Max speed, writes output (spec 14), then quits. A menu in the app can also start an experiment file.
 
 Example files to provide:
-`baseline.json` · `malls_closed.json` · `immune_50.json` · `pandemic.json` (p = 0.2) · `flat.json` (p = 0.00005)
+`baseline.json` · `malls_closed.json` · `immune_50.json` · `pandemic.json` (p = 0.2) · `flat.json` (p = 0.0025) — p values relative to the calibrated baseline 0.05 (spec 11)
 
 ## Done when
 - `test_experiments`: same file and seed twice → byte-identical `seir.csv`.

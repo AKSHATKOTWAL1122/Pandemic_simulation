@@ -3,6 +3,8 @@ extends RefCounted
 ## One person. Plain data, stored in Population.npcs and indexed by id — never a Node.
 
 enum Occupation { STUDENT, WORKER, NONE }
+## Spec 11: SEIR state.
+enum Health { S, E, I, R }
 ## Spec 08/09: what the NPC is doing right now.
 enum Activity { AT_BUILDING, WALKING, DRIVING }
 
@@ -47,6 +49,15 @@ var in_car: bool = false
 
 ## Spec 10: number of encounters with anyone so far.
 var contact_count: int = 0
+
+## Spec 11: infection state, owned by Epidemic.
+var health: int = Health.S
+var health_since_tick: int = 0
+## Who infected this NPC most recently (-1: nobody, or patient zero / manual).
+var infected_by: int = -1
+var first_infected_tick: int = -1
+## Stays in R forever (spec 13 immune share).
+var immune_forever: bool = false
 
 
 ## Shown as npc_000.

@@ -32,6 +32,11 @@
 	"drive_min_tiles": 30,
 	"car_pickup_radius": 3,
 	"virus": {
-		"infection_radius_m": 2.0
+		"infection_radius_m": 2.0,
+		"transmission_prob_per_min": 0.05,
+		"incubation_days": 1,
+		"infection_days": 3,
+		"immunity_days": 5,
+		"car_transmission_multiplier": 0.1
 	}
 }
