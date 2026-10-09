@@ -9,5 +9,9 @@
 	"friends_min": 3,
 	"friends_max": 8,
 	"friends_same_place_share": 0.7,
-	"car_ownership_share": 0.6
+	"car_ownership_share": 0.6,
+	"sleep_hours": [23, 7],
+	"work_hours": [9, 17],
+	"school_hours": [8, 15],
+	"jitter_minutes": 30
 }

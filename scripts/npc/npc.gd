@@ -13,6 +13,10 @@ var school_id: int = -1
 var friends: Array[int] = []
 ## Tiles, float.
 var pos: Vector2 = Vector2.ZERO
+## Spec 06: fixed minutes added to each block's start / end, indexed by Timetable.Kind
+## (SLEEP, WORK, SCHOOL). Drawn once at creation.
+var jitter_start := PackedInt32Array([0, 0, 0])
+var jitter_end := PackedInt32Array([0, 0, 0])
 
 
 ## Shown as npc_000.
@@ -33,7 +37,7 @@ func place_id() -> int:
 
 ## One deterministic line with every field, for comparing populations.
 func serialize() -> String:
-	return "%s hh=%d home=%d occ=%s work=%d school=%d friends=%s pos=%s" % [
+	return "%s hh=%d home=%d occ=%s work=%d school=%d friends=%s pos=%s jitter=%s/%s" % [
 		label(), household_id, home_id, occupation_name(), work_id, school_id,
-		friends, var_to_str(pos),
+		friends, var_to_str(pos), jitter_start, jitter_end,
 	]

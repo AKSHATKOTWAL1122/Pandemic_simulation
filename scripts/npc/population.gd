@@ -20,6 +20,10 @@ static func generate(rng: SeededRng, buildings: BuildingRegistry, config: Config
 	pop._make_friends(rng, config.get_int("friends_min"), config.get_int("friends_max"), config.get_float("friends_same_place_share"))
 	pop._assign_cars(rng, config.get_float("car_ownership_share"))
 	pop._place_at_home(rng, buildings)
+	# Step 9 (spec 06): timetable jitter.
+	var jitter := config.get_int("jitter_minutes")
+	for npc in pop.npcs:
+		Timetable.draw_jitter(npc, rng, jitter)
 	return pop
 
 
