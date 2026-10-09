@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=3]
+[gd_scene load_steps=7 format=3]
 
 [ext_resource type="Script" path="res://scripts/core/sim.gd" id="1_sim"]
-[ext_resource type="Script" path="res://scripts/ui/time_label.gd" id="2_label"]
 [ext_resource type="Script" path="res://scripts/world/map_view.gd" id="3_map"]
 [ext_resource type="Script" path="res://scripts/ui/city_camera.gd" id="4_camera"]
 [ext_resource type="Script" path="res://scripts/npc/npc_view.gd" id="5_npcs"]
+[ext_resource type="Script" path="res://scripts/ui/event_overlay.gd" id="6_overlay"]
+[ext_resource type="Script" path="res://scripts/ui/hud.gd" id="7_hud"]
 
 [node name="Main" type="Node2D"]
 
@@ -12,6 +13,7 @@
 script = ExtResource("3_map")
 
 [node name="NpcView" type="Node2D" parent="."]
+z_index = 2
 script = ExtResource("5_npcs")
 
 [node name="Camera" type="Camera2D" parent="."]
@@ -20,12 +22,9 @@ script = ExtResource("4_camera")
 [node name="Sim" type="Node" parent="."]
 script = ExtResource("1_sim")
 
-[node name="HUD" type="CanvasLayer" parent="."]
+[node name="EventOverlay" type="Node2D" parent="."]
+z_index = 1
+script = ExtResource("6_overlay")
 
-[node name="TimeLabel" type="Label" parent="HUD"]
-offset_left = 12.0
-offset_top = 8.0
-offset_right = 260.0
-offset_bottom = 34.0
-text = "Day 0 Mon 00:00"
-script = ExtResource("2_label")
+[node name="HUD" type="CanvasLayer" parent="."]
+script = ExtResource("7_hud")
