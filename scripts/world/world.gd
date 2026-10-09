@@ -3,8 +3,10 @@ extends Node
 
 var map: CityMap
 var buildings: BuildingRegistry
+var paths: Paths
 
 
-func _init() -> void:
+func _ready() -> void:
 	map = CityMap.load_default()
 	buildings = BuildingRegistry.load_default()
+	paths = Paths.build(map, buildings, Config)
