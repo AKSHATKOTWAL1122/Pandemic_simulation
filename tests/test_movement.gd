@@ -27,7 +27,7 @@ static func _run_day() -> Dictionary:
 				var b := sim.buildings.by_id(npc.building_id) if npc.building_id >= 0 else null
 				if b == null or not Rect2(b.rect).grow(0.001).has_point(npc.pos):
 					bad_state += 1
-			elif npc.activity == NPC.Activity.WALKING:
+			elif npc.activity == NPC.Activity.WALKING or npc.activity == NPC.Activity.DRIVING:
 				walkers += 1
 				if npc.route.is_empty():
 					bad_state += 1
@@ -58,9 +58,9 @@ static func _run_day() -> Dictionary:
 	return _day_run
 
 
-func test_every_npc_is_inside_a_building_or_walking() -> void:
+func test_every_npc_is_inside_a_building_or_travelling() -> void:
 	var r := _run_day()
-	check(r["bad_state"] == 0, "%d NPC-ticks were neither inside their building nor on a route" % r["bad_state"])
+	check(r["bad_state"] == 0, "%d NPC-ticks were neither inside their building nor on a walk/drive route" % r["bad_state"])
 
 
 func test_no_npc_ever_on_water() -> void:

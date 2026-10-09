@@ -11,6 +11,7 @@ var paths: Paths
 var population: Population
 var timetable: Timetable
 var desires: Desires
+var fleet: CarFleet
 var behaviour: NpcBehaviour
 
 
@@ -25,7 +26,8 @@ func _init(p_config: ConfigStore, p_rng: SeededRng, p_clock: GameClock, p_buildi
 	population = Population.generate(rng, buildings, config)
 	timetable = Timetable.new(config, buildings)
 	desires = Desires.new(config, buildings, population.npcs, rng)
-	behaviour = NpcBehaviour.new(config, clock, rng, buildings, paths, population, timetable, desires)
+	fleet = CarFleet.create(population, buildings, paths)
+	behaviour = NpcBehaviour.new(config, clock, rng, buildings, paths, population, timetable, desires, fleet)
 
 
 ## Builds a self-contained run (own RNG, clock and buildings) for tests and batch runs.

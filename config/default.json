@@ -27,5 +27,8 @@
 	"nightclub_hours": [19, 3],
 	"walk_speed_mps": 1.4,
 	"indoor_wander_minutes": 10,
-	"min_outing_minutes": 60
+	"min_outing_minutes": 60,
+	"drive_speed_kmh": 30,
+	"drive_min_tiles": 30,
+	"car_pickup_radius": 3
 }
