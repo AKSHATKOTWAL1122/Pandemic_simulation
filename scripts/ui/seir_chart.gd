@@ -16,6 +16,9 @@ var _tick_seconds: int = 60
 
 func attach(simulation: Simulation) -> void:
 	_simulation = simulation
+	for s in series:
+		s.clear()
+	sample_ticks.clear()
 	_tick_seconds = simulation.config.get_int("tick_seconds")
 	_ticks_per_hour = maxi(1, roundi(3600.0 / _tick_seconds))
 	_sample(-1)

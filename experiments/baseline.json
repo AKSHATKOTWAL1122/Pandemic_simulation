@@ -1,0 +1,9 @@
+{
+	"name": "baseline",
+	"base_seed": 1000,
+	"runs": 10,
+	"days": 30,
+	"patient_zero": { "mode": "random", "count": 5 },
+	"closed_buildings": { "ids": [], "purposes": [] },
+	"immune_share": 0.0
+}

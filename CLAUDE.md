@@ -15,6 +15,7 @@ Godot epidemic simulation: ~1,000 NPCs live in an original 256 × 256 tile city,
 - Never weaken a test to make it pass.
 
 ## Parallel lanes
+Done: all specs are built and the lanes are merged. Kept for reference if new parallel work is planned.
 After spec 03 is merged to `main`, three lanes may run at the same time, each in its own git worktree and branch:
 
 | Lane | Branch | Specs | Touches |
@@ -41,10 +42,12 @@ Rules for lane sessions:
 
 ## Commands
 - Run: `godot --path .`
-- Tests: `godot --headless --path . --script res://tests/run_all.gd`
-- Experiment: `godot --path . -- --experiment experiments/baseline.json`
-- Make the map: `python tools/make_map.py`
-- Analysis: `python analysis/seir_curves.py output/baseline`
+- Tests: `godot --headless --path . --script res://tests/run_all.gd` (after adding a `class_name` file, first run `godot --headless --path . --import`)
+- UI smoke test (needs a window): `godot --path . --script res://tests/ui_smoke.gd`
+- Experiment: `godot --path . -- --experiment experiments/baseline.json` → `output/baseline/run_<i>/`
+- Make the map: `python3 tools/make_map.py`
+- Analysis setup: `python3 -m venv analysis/.venv && analysis/.venv/bin/pip install -r analysis/requirements.txt`
+- Analysis: `analysis/.venv/bin/python analysis/seir_curves.py output/baseline` (all scripts: `specs/15-analysis-python.md`); tests: `analysis/.venv/bin/python analysis/test_analysis.py`
 
 ## Layout
 `config/` defaults · `data/` map + buildings · `scenes/` · `scripts/{core,world,npc,sim,ui}` · `tests/` · `experiments/` · `output/` (generated) · `analysis/` (Python) · `tools/` · `specs/`

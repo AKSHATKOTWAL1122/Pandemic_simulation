@@ -1,0 +1,8 @@
+{
+	"name": "flat",
+	"base_seed": 1000,
+	"runs": 10,
+	"days": 30,
+	"virus": { "transmission_prob_per_min": 0.0025 },
+	"patient_zero": { "mode": "random", "count": 5 }
+}

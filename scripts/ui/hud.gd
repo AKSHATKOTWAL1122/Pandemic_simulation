@@ -23,6 +23,8 @@ var _building_label: Label
 var _close_button: Button
 var _selected_npc: int = -1
 var _selected_building: int = -1
+var _chart: Control
+var _experiment_dialog: FileDialog
 
 @onready var _sim: Node = get_node("../Sim")
 @onready var _camera: Camera2D = get_node("../Camera")
@@ -37,6 +39,7 @@ func _ready() -> void:
 	_build_chart()
 	_build_legend()
 	_sim.speed_changed.connect(_on_speed_changed)
+	_sim.simulation_changed.connect(_on_simulation_changed)
 	_sim.set_speed(1)
 
 
@@ -157,6 +160,21 @@ func _on_speed_changed(index: int) -> void:
 		_speed_buttons[i].button_pressed = i == index
 
 
+func _on_simulation_changed(simulation: Simulation) -> void:
+	_selected_npc = -1
+	_selected_building = -1
+	_chart.attach(simulation)
+
+
+func _on_experiment_chosen(path: String) -> void:
+	var runner: BatchRunner = _sim.get_node_or_null("BatchRunner")
+	if runner == null:
+		runner = BatchRunner.new()
+		runner.name = "BatchRunner"
+		_sim.add_child(runner)
+	runner.start(path)
+
+
 func _on_infect() -> void:
 	if _selected_npc >= 0:
 		(_sim.simulation as Simulation).infect(_selected_npc)
@@ -207,6 +225,18 @@ func _build_top_bar() -> void:
 		_speed_buttons.append(b)
 	_counts_label = Label.new()
 	row.add_child(_counts_label)
+	var run := Button.new()
+	run.text = "Run experiment…"
+	run.focus_mode = Control.FOCUS_NONE
+	row.add_child(run)
+	_experiment_dialog = FileDialog.new()
+	_experiment_dialog.file_mode = FileDialog.FILE_MODE_OPEN_FILE
+	_experiment_dialog.access = FileDialog.ACCESS_RESOURCES
+	_experiment_dialog.current_dir = "res://experiments"
+	_experiment_dialog.filters = PackedStringArray(["*.json ; Experiment files"])
+	_experiment_dialog.file_selected.connect(_on_experiment_chosen)
+	add_child(_experiment_dialog)
+	run.pressed.connect(func() -> void: _experiment_dialog.popup_centered(Vector2i(640, 420)))
 
 
 func _build_npc_panel() -> void:
@@ -242,10 +272,10 @@ func _build_building_panel() -> void:
 func _build_chart() -> void:
 	var panel := _panel(0, 1, Vector2(8, -188))
 	add_child(panel)
-	var chart: Control = SeirChart.new()
-	chart.custom_minimum_size = Vector2(460, 172)
-	panel.add_child(chart)
-	chart.attach(_sim.simulation)
+	_chart = SeirChart.new()
+	_chart.custom_minimum_size = Vector2(460, 172)
+	panel.add_child(_chart)
+	_chart.attach(_sim.simulation)
 
 
 func _build_legend() -> void:

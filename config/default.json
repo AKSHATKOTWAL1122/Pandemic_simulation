@@ -4,6 +4,7 @@
 	"days": 30,
 	"population": 1000,
 	"ticks_per_second": 10,
+	"export_live_runs": true,
 	"tile_metres": 4,
 	"walk_road_cost": 4,
 	"path_cache_size": 2000,

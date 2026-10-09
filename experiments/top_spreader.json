@@ -1,0 +1,7 @@
+{
+	"name": "top_spreader",
+	"base_seed": 1000,
+	"runs": 10,
+	"days": 30,
+	"patient_zero": { "mode": "top_contacts", "count": 1, "from_run": "res://output/baseline/run_0/npcs.csv" }
+}

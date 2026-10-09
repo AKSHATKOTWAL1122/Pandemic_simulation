@@ -28,6 +28,15 @@ var _dirty := false
 
 func _ready() -> void:
 	_sim.simulation.listeners.append(_on_tick)
+	_sim.simulation_changed.connect(_on_simulation_changed)
+
+
+func _on_simulation_changed(simulation: Simulation) -> void:
+	_contacts.clear()
+	_contact_next = 0
+	_infections.clear()
+	simulation.listeners.append(_on_tick)
+	queue_redraw()
 
 
 func _on_tick(_tick: int, contact_events: Array, infection_events: Array) -> void:

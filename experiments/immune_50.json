@@ -1,0 +1,8 @@
+{
+	"name": "immune_50",
+	"base_seed": 1000,
+	"runs": 10,
+	"days": 30,
+	"patient_zero": { "mode": "random", "count": 5 },
+	"immune_share": 0.5
+}
