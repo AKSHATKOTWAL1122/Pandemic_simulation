@@ -3,5 +3,11 @@
 	"tick_seconds": 60,
 	"days": 30,
 	"population": 1000,
-	"ticks_per_frame": 1
+	"ticks_per_frame": 1,
+	"household_size_weights": [30, 30, 20, 15, 5],
+	"occupation_shares": { "STUDENT": 0.15, "WORKER": 0.65, "NONE": 0.2 },
+	"friends_min": 3,
+	"friends_max": 8,
+	"friends_same_place_share": 0.7,
+	"car_ownership_share": 0.6
 }
