@@ -13,3 +13,6 @@ __pycache__/
 
 # Reference transcript (third-party; kept local)
 context.txt
+
+# Parallel lane worktrees
+.worktrees/

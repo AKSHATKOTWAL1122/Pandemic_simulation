@@ -1,0 +1,11485 @@
+{
+ "seed": 2026,
+ "islands": [
+  {
+   "id": 0,
+   "rect": [
+    6,
+    6,
+    118,
+    244
+   ]
+  },
+  {
+   "id": 1,
+   "rect": [
+    132,
+    6,
+    118,
+    118
+   ]
+  },
+  {
+   "id": 2,
+   "rect": [
+    132,
+    132,
+    118,
+    118
+   ]
+  }
+ ],
+ "bridges": [
+  {
+   "id": 0,
+   "rect": [
+    124,
+    48,
+    8,
+    4
+   ]
+  },
+  {
+   "id": 1,
+   "rect": [
+    124,
+    89,
+    8,
+    4
+   ]
+  },
+  {
+   "id": 2,
+   "rect": [
+    124,
+    183,
+    8,
+    4
+   ]
+  },
+  {
+   "id": 3,
+   "rect": [
+    181,
+    124,
+    4,
+    8
+   ]
+  },
+  {
+   "id": 4,
+   "rect": [
+    221,
+    124,
+    4,
+    8
+   ]
+  }
+ ],
+ "buildings": [
+  {
+   "id": 0,
+   "island": 0,
+   "rect": [
+    10,
+    10,
+    7,
+    9
+   ],
+   "entrance": [
+    13,
+    10
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 12
+  },
+  {
+   "id": 1,
+   "island": 0,
+   "rect": [
+    17,
+    10,
+    6,
+    9
+   ],
+   "entrance": [
+    19,
+    10
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 2,
+   "island": 0,
+   "rect": [
+    27,
+    10,
+    17,
+    19
+   ],
+   "entrance": [
+    35,
+    10
+   ],
+   "purposes": [
+    "school"
+   ],
+   "home_capacity": 0,
+   "jobs": 25
+  },
+  {
+   "id": 3,
+   "island": 0,
+   "rect": [
+    48,
+    10,
+    8,
+    9
+   ],
+   "entrance": [
+    51,
+    10
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 14
+  },
+  {
+   "id": 4,
+   "island": 0,
+   "rect": [
+    56,
+    10,
+    5,
+    9
+   ],
+   "entrance": [
+    58,
+    10
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 5,
+   "island": 0,
+   "rect": [
+    61,
+    10,
+    7,
+    9
+   ],
+   "entrance": [
+    64,
+    10
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 6,
+   "island": 0,
+   "rect": [
+    72,
+    10,
+    9,
+    9
+   ],
+   "entrance": [
+    76,
+    10
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 7,
+   "island": 0,
+   "rect": [
+    81,
+    10,
+    6,
+    9
+   ],
+   "entrance": [
+    83,
+    10
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 8,
+   "island": 0,
+   "rect": [
+    87,
+    10,
+    5,
+    9
+   ],
+   "entrance": [
+    89,
+    10
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 9
+  },
+  {
+   "id": 9,
+   "island": 0,
+   "rect": [
+    96,
+    10,
+    9,
+    9
+   ],
+   "entrance": [
+    100,
+    10
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 16
+  },
+  {
+   "id": 10,
+   "island": 0,
+   "rect": [
+    105,
+    10,
+    9,
+    9
+   ],
+   "entrance": [
+    109,
+    10
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 11,
+   "island": 0,
+   "rect": [
+    114,
+    10,
+    6,
+    9
+   ],
+   "entrance": [
+    116,
+    10
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 12,
+   "island": 1,
+   "rect": [
+    136,
+    10,
+    9,
+    12
+   ],
+   "entrance": [
+    140,
+    10
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 10,
+   "jobs": 0
+  },
+  {
+   "id": 13,
+   "island": 1,
+   "rect": [
+    145,
+    10,
+    5,
+    12
+   ],
+   "entrance": [
+    147,
+    10
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 14,
+   "island": 1,
+   "rect": [
+    150,
+    10,
+    5,
+    12
+   ],
+   "entrance": [
+    152,
+    10
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 15,
+   "island": 1,
+   "rect": [
+    159,
+    10,
+    9,
+    12
+   ],
+   "entrance": [
+    163,
+    10
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 10,
+   "jobs": 0
+  },
+  {
+   "id": 16,
+   "island": 1,
+   "rect": [
+    168,
+    10,
+    7,
+    12
+   ],
+   "entrance": [
+    171,
+    10
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 16
+  },
+  {
+   "id": 17,
+   "island": 1,
+   "rect": [
+    175,
+    10,
+    6,
+    12
+   ],
+   "entrance": [
+    177,
+    10
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 7,
+   "jobs": 0
+  },
+  {
+   "id": 18,
+   "island": 1,
+   "rect": [
+    185,
+    10,
+    5,
+    12
+   ],
+   "entrance": [
+    187,
+    10
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 19,
+   "island": 1,
+   "rect": [
+    190,
+    10,
+    6,
+    12
+   ],
+   "entrance": [
+    192,
+    10
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 7,
+   "jobs": 0
+  },
+  {
+   "id": 20,
+   "island": 1,
+   "rect": [
+    196,
+    10,
+    6,
+    12
+   ],
+   "entrance": [
+    198,
+    10
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 14
+  },
+  {
+   "id": 21,
+   "island": 1,
+   "rect": [
+    206,
+    10,
+    6,
+    12
+   ],
+   "entrance": [
+    208,
+    10
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 7,
+   "jobs": 0
+  },
+  {
+   "id": 22,
+   "island": 1,
+   "rect": [
+    212,
+    10,
+    9,
+    12
+   ],
+   "entrance": [
+    216,
+    10
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 10,
+   "jobs": 0
+  },
+  {
+   "id": 23,
+   "island": 1,
+   "rect": [
+    225,
+    10,
+    7,
+    12
+   ],
+   "entrance": [
+    228,
+    10
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 24,
+   "island": 1,
+   "rect": [
+    232,
+    10,
+    6,
+    12
+   ],
+   "entrance": [
+    234,
+    10
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 7,
+   "jobs": 0
+  },
+  {
+   "id": 25,
+   "island": 1,
+   "rect": [
+    238,
+    10,
+    8,
+    12
+   ],
+   "entrance": [
+    241,
+    10
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 9,
+   "jobs": 0
+  },
+  {
+   "id": 26,
+   "island": 0,
+   "rect": [
+    10,
+    19,
+    8,
+    10
+   ],
+   "entrance": [
+    13,
+    28
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 27,
+   "island": 0,
+   "rect": [
+    18,
+    19,
+    5,
+    10
+   ],
+   "entrance": [
+    20,
+    28
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 10
+  },
+  {
+   "id": 28,
+   "island": 0,
+   "rect": [
+    48,
+    19,
+    8,
+    10
+   ],
+   "entrance": [
+    51,
+    28
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 29,
+   "island": 0,
+   "rect": [
+    56,
+    19,
+    7,
+    10
+   ],
+   "entrance": [
+    59,
+    28
+   ],
+   "purposes": [
+    "restaurant"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 30,
+   "island": 0,
+   "rect": [
+    63,
+    19,
+    5,
+    10
+   ],
+   "entrance": [
+    65,
+    28
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 31,
+   "island": 0,
+   "rect": [
+    72,
+    19,
+    5,
+    10
+   ],
+   "entrance": [
+    74,
+    28
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 10
+  },
+  {
+   "id": 32,
+   "island": 0,
+   "rect": [
+    77,
+    19,
+    8,
+    10
+   ],
+   "entrance": [
+    80,
+    28
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 33,
+   "island": 0,
+   "rect": [
+    85,
+    19,
+    7,
+    10
+   ],
+   "entrance": [
+    88,
+    28
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 14
+  },
+  {
+   "id": 34,
+   "island": 0,
+   "rect": [
+    96,
+    19,
+    8,
+    10
+   ],
+   "entrance": [
+    99,
+    28
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 35,
+   "island": 0,
+   "rect": [
+    104,
+    19,
+    8,
+    10
+   ],
+   "entrance": [
+    107,
+    28
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 16
+  },
+  {
+   "id": 36,
+   "island": 0,
+   "rect": [
+    112,
+    19,
+    8,
+    10
+   ],
+   "entrance": [
+    115,
+    28
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 16
+  },
+  {
+   "id": 37,
+   "island": 1,
+   "rect": [
+    136,
+    22,
+    9,
+    12
+   ],
+   "entrance": [
+    140,
+    33
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 10,
+   "jobs": 0
+  },
+  {
+   "id": 38,
+   "island": 1,
+   "rect": [
+    145,
+    22,
+    5,
+    12
+   ],
+   "entrance": [
+    147,
+    33
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 39,
+   "island": 1,
+   "rect": [
+    150,
+    22,
+    5,
+    12
+   ],
+   "entrance": [
+    152,
+    33
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 12
+  },
+  {
+   "id": 40,
+   "island": 1,
+   "rect": [
+    159,
+    22,
+    9,
+    12
+   ],
+   "entrance": [
+    163,
+    33
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 21
+  },
+  {
+   "id": 41,
+   "island": 1,
+   "rect": [
+    168,
+    22,
+    6,
+    12
+   ],
+   "entrance": [
+    170,
+    33
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 7,
+   "jobs": 0
+  },
+  {
+   "id": 42,
+   "island": 1,
+   "rect": [
+    174,
+    22,
+    7,
+    12
+   ],
+   "entrance": [
+    177,
+    33
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 43,
+   "island": 1,
+   "rect": [
+    185,
+    22,
+    5,
+    12
+   ],
+   "entrance": [
+    187,
+    33
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 12
+  },
+  {
+   "id": 44,
+   "island": 1,
+   "rect": [
+    190,
+    22,
+    6,
+    12
+   ],
+   "entrance": [
+    192,
+    33
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 7,
+   "jobs": 0
+  },
+  {
+   "id": 45,
+   "island": 1,
+   "rect": [
+    196,
+    22,
+    6,
+    12
+   ],
+   "entrance": [
+    198,
+    33
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 7,
+   "jobs": 0
+  },
+  {
+   "id": 46,
+   "island": 1,
+   "rect": [
+    206,
+    22,
+    5,
+    12
+   ],
+   "entrance": [
+    208,
+    33
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 47,
+   "island": 1,
+   "rect": [
+    211,
+    22,
+    5,
+    12
+   ],
+   "entrance": [
+    213,
+    33
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 48,
+   "island": 1,
+   "rect": [
+    216,
+    22,
+    5,
+    12
+   ],
+   "entrance": [
+    218,
+    33
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 12
+  },
+  {
+   "id": 49,
+   "island": 1,
+   "rect": [
+    225,
+    22,
+    5,
+    12
+   ],
+   "entrance": [
+    227,
+    33
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 50,
+   "island": 1,
+   "rect": [
+    230,
+    22,
+    9,
+    12
+   ],
+   "entrance": [
+    234,
+    33
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 10,
+   "jobs": 0
+  },
+  {
+   "id": 51,
+   "island": 1,
+   "rect": [
+    239,
+    22,
+    7,
+    12
+   ],
+   "entrance": [
+    242,
+    33
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 52,
+   "island": 0,
+   "rect": [
+    10,
+    33,
+    7,
+    7
+   ],
+   "entrance": [
+    13,
+    33
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 53,
+   "island": 0,
+   "rect": [
+    17,
+    33,
+    6,
+    7
+   ],
+   "entrance": [
+    19,
+    33
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 54,
+   "island": 0,
+   "rect": [
+    27,
+    33,
+    9,
+    7
+   ],
+   "entrance": [
+    31,
+    33
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 12
+  },
+  {
+   "id": 55,
+   "island": 0,
+   "rect": [
+    36,
+    33,
+    8,
+    7
+   ],
+   "entrance": [
+    39,
+    33
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 56,
+   "island": 0,
+   "rect": [
+    48,
+    33,
+    9,
+    7
+   ],
+   "entrance": [
+    52,
+    33
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 57,
+   "island": 0,
+   "rect": [
+    57,
+    33,
+    5,
+    7
+   ],
+   "entrance": [
+    59,
+    33
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 58,
+   "island": 0,
+   "rect": [
+    62,
+    33,
+    6,
+    7
+   ],
+   "entrance": [
+    64,
+    33
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 59,
+   "island": 0,
+   "rect": [
+    72,
+    33,
+    6,
+    7
+   ],
+   "entrance": [
+    74,
+    33
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 60,
+   "island": 0,
+   "rect": [
+    78,
+    33,
+    5,
+    7
+   ],
+   "entrance": [
+    80,
+    33
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 61,
+   "island": 0,
+   "rect": [
+    83,
+    33,
+    9,
+    7
+   ],
+   "entrance": [
+    87,
+    33
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 12
+  },
+  {
+   "id": 62,
+   "island": 0,
+   "rect": [
+    96,
+    33,
+    9,
+    7
+   ],
+   "entrance": [
+    100,
+    33
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 63,
+   "island": 0,
+   "rect": [
+    105,
+    33,
+    8,
+    7
+   ],
+   "entrance": [
+    108,
+    33
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 64,
+   "island": 0,
+   "rect": [
+    113,
+    33,
+    7,
+    7
+   ],
+   "entrance": [
+    116,
+    33
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 9
+  },
+  {
+   "id": 65,
+   "island": 1,
+   "rect": [
+    136,
+    38,
+    7,
+    9
+   ],
+   "entrance": [
+    139,
+    38
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 12
+  },
+  {
+   "id": 66,
+   "island": 1,
+   "rect": [
+    143,
+    38,
+    6,
+    9
+   ],
+   "entrance": [
+    145,
+    38
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 10
+  },
+  {
+   "id": 67,
+   "island": 1,
+   "rect": [
+    149,
+    38,
+    6,
+    9
+   ],
+   "entrance": [
+    151,
+    38
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 68,
+   "island": 1,
+   "rect": [
+    159,
+    38,
+    7,
+    9
+   ],
+   "entrance": [
+    162,
+    38
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 69,
+   "island": 1,
+   "rect": [
+    166,
+    38,
+    7,
+    9
+   ],
+   "entrance": [
+    169,
+    38
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 70,
+   "island": 1,
+   "rect": [
+    173,
+    38,
+    8,
+    9
+   ],
+   "entrance": [
+    176,
+    38
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 7,
+   "jobs": 0
+  },
+  {
+   "id": 71,
+   "island": 1,
+   "rect": [
+    185,
+    38,
+    7,
+    9
+   ],
+   "entrance": [
+    188,
+    38
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 72,
+   "island": 1,
+   "rect": [
+    192,
+    38,
+    5,
+    9
+   ],
+   "entrance": [
+    194,
+    38
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 73,
+   "island": 1,
+   "rect": [
+    197,
+    38,
+    5,
+    9
+   ],
+   "entrance": [
+    199,
+    38
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 74,
+   "island": 1,
+   "rect": [
+    206,
+    38,
+    7,
+    9
+   ],
+   "entrance": [
+    209,
+    38
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 75,
+   "island": 1,
+   "rect": [
+    213,
+    38,
+    8,
+    9
+   ],
+   "entrance": [
+    216,
+    38
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 7,
+   "jobs": 0
+  },
+  {
+   "id": 76,
+   "island": 1,
+   "rect": [
+    225,
+    38,
+    5,
+    9
+   ],
+   "entrance": [
+    227,
+    38
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 9
+  },
+  {
+   "id": 77,
+   "island": 1,
+   "rect": [
+    230,
+    38,
+    5,
+    9
+   ],
+   "entrance": [
+    232,
+    38
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 78,
+   "island": 1,
+   "rect": [
+    235,
+    38,
+    5,
+    9
+   ],
+   "entrance": [
+    237,
+    38
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 9
+  },
+  {
+   "id": 79,
+   "island": 1,
+   "rect": [
+    240,
+    38,
+    6,
+    9
+   ],
+   "entrance": [
+    242,
+    38
+   ],
+   "purposes": [
+    "restaurant"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 80,
+   "island": 0,
+   "rect": [
+    10,
+    40,
+    8,
+    8
+   ],
+   "entrance": [
+    13,
+    47
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 81,
+   "island": 0,
+   "rect": [
+    18,
+    40,
+    5,
+    8
+   ],
+   "entrance": [
+    20,
+    47
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 82,
+   "island": 0,
+   "rect": [
+    27,
+    40,
+    8,
+    8
+   ],
+   "entrance": [
+    30,
+    47
+   ],
+   "purposes": [
+    "nightclub"
+   ],
+   "home_capacity": 0,
+   "jobs": 10
+  },
+  {
+   "id": 83,
+   "island": 0,
+   "rect": [
+    35,
+    40,
+    9,
+    8
+   ],
+   "entrance": [
+    39,
+    47
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 7,
+   "jobs": 0
+  },
+  {
+   "id": 84,
+   "island": 0,
+   "rect": [
+    48,
+    40,
+    9,
+    8
+   ],
+   "entrance": [
+    52,
+    47
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 7,
+   "jobs": 0
+  },
+  {
+   "id": 85,
+   "island": 0,
+   "rect": [
+    57,
+    40,
+    5,
+    8
+   ],
+   "entrance": [
+    59,
+    47
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 86,
+   "island": 0,
+   "rect": [
+    62,
+    40,
+    6,
+    8
+   ],
+   "entrance": [
+    64,
+    47
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 9
+  },
+  {
+   "id": 87,
+   "island": 0,
+   "rect": [
+    72,
+    40,
+    9,
+    8
+   ],
+   "entrance": [
+    76,
+    47
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 7,
+   "jobs": 0
+  },
+  {
+   "id": 88,
+   "island": 0,
+   "rect": [
+    81,
+    40,
+    5,
+    8
+   ],
+   "entrance": [
+    83,
+    47
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 89,
+   "island": 0,
+   "rect": [
+    86,
+    40,
+    6,
+    8
+   ],
+   "entrance": [
+    88,
+    47
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 90,
+   "island": 0,
+   "rect": [
+    96,
+    40,
+    8,
+    8
+   ],
+   "entrance": [
+    99,
+    47
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 12
+  },
+  {
+   "id": 91,
+   "island": 0,
+   "rect": [
+    104,
+    40,
+    6,
+    8
+   ],
+   "entrance": [
+    106,
+    47
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 92,
+   "island": 0,
+   "rect": [
+    110,
+    40,
+    5,
+    8
+   ],
+   "entrance": [
+    112,
+    47
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 93,
+   "island": 0,
+   "rect": [
+    115,
+    40,
+    5,
+    8
+   ],
+   "entrance": [
+    117,
+    47
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 94,
+   "island": 1,
+   "rect": [
+    136,
+    47,
+    9,
+    9
+   ],
+   "entrance": [
+    140,
+    55
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 95,
+   "island": 1,
+   "rect": [
+    145,
+    47,
+    5,
+    9
+   ],
+   "entrance": [
+    147,
+    55
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 96,
+   "island": 1,
+   "rect": [
+    150,
+    47,
+    5,
+    9
+   ],
+   "entrance": [
+    152,
+    55
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 9
+  },
+  {
+   "id": 97,
+   "island": 1,
+   "rect": [
+    159,
+    47,
+    6,
+    9
+   ],
+   "entrance": [
+    161,
+    55
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 98,
+   "island": 1,
+   "rect": [
+    165,
+    47,
+    7,
+    9
+   ],
+   "entrance": [
+    168,
+    55
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 99,
+   "island": 1,
+   "rect": [
+    172,
+    47,
+    9,
+    9
+   ],
+   "entrance": [
+    176,
+    55
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 100,
+   "island": 1,
+   "rect": [
+    185,
+    47,
+    5,
+    9
+   ],
+   "entrance": [
+    187,
+    55
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 101,
+   "island": 1,
+   "rect": [
+    190,
+    47,
+    6,
+    9
+   ],
+   "entrance": [
+    192,
+    55
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 10
+  },
+  {
+   "id": 102,
+   "island": 1,
+   "rect": [
+    196,
+    47,
+    6,
+    9
+   ],
+   "entrance": [
+    198,
+    55
+   ],
+   "purposes": [
+    "restaurant"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 103,
+   "island": 1,
+   "rect": [
+    206,
+    47,
+    8,
+    9
+   ],
+   "entrance": [
+    209,
+    55
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 14
+  },
+  {
+   "id": 104,
+   "island": 1,
+   "rect": [
+    214,
+    47,
+    7,
+    9
+   ],
+   "entrance": [
+    217,
+    55
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 12
+  },
+  {
+   "id": 105,
+   "island": 1,
+   "rect": [
+    225,
+    47,
+    6,
+    9
+   ],
+   "entrance": [
+    227,
+    55
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 106,
+   "island": 1,
+   "rect": [
+    231,
+    47,
+    5,
+    9
+   ],
+   "entrance": [
+    233,
+    55
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 107,
+   "island": 1,
+   "rect": [
+    236,
+    47,
+    5,
+    9
+   ],
+   "entrance": [
+    238,
+    55
+   ],
+   "purposes": [
+    "home",
+    "restaurant"
+   ],
+   "home_capacity": 4,
+   "jobs": 8
+  },
+  {
+   "id": 108,
+   "island": 1,
+   "rect": [
+    241,
+    47,
+    5,
+    9
+   ],
+   "entrance": [
+    243,
+    55
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 109,
+   "island": 0,
+   "rect": [
+    10,
+    52,
+    6,
+    6
+   ],
+   "entrance": [
+    12,
+    52
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 7
+  },
+  {
+   "id": 110,
+   "island": 0,
+   "rect": [
+    16,
+    52,
+    7,
+    6
+   ],
+   "entrance": [
+    19,
+    52
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 111,
+   "island": 0,
+   "rect": [
+    27,
+    52,
+    8,
+    6
+   ],
+   "entrance": [
+    30,
+    52
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 9
+  },
+  {
+   "id": 112,
+   "island": 0,
+   "rect": [
+    35,
+    52,
+    9,
+    6
+   ],
+   "entrance": [
+    39,
+    52
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 113,
+   "island": 0,
+   "rect": [
+    48,
+    52,
+    9,
+    6
+   ],
+   "entrance": [
+    52,
+    52
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 10
+  },
+  {
+   "id": 114,
+   "island": 0,
+   "rect": [
+    57,
+    52,
+    6,
+    6
+   ],
+   "entrance": [
+    59,
+    52
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 7
+  },
+  {
+   "id": 115,
+   "island": 0,
+   "rect": [
+    63,
+    52,
+    5,
+    6
+   ],
+   "entrance": [
+    65,
+    52
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 6
+  },
+  {
+   "id": 116,
+   "island": 0,
+   "rect": [
+    72,
+    52,
+    7,
+    6
+   ],
+   "entrance": [
+    75,
+    52
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 117,
+   "island": 0,
+   "rect": [
+    79,
+    52,
+    8,
+    6
+   ],
+   "entrance": [
+    82,
+    52
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 118,
+   "island": 0,
+   "rect": [
+    87,
+    52,
+    5,
+    6
+   ],
+   "entrance": [
+    89,
+    52
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 119,
+   "island": 0,
+   "rect": [
+    96,
+    52,
+    6,
+    6
+   ],
+   "entrance": [
+    98,
+    52
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 120,
+   "island": 0,
+   "rect": [
+    102,
+    52,
+    7,
+    6
+   ],
+   "entrance": [
+    105,
+    52
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 121,
+   "island": 0,
+   "rect": [
+    109,
+    52,
+    6,
+    6
+   ],
+   "entrance": [
+    111,
+    52
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 122,
+   "island": 0,
+   "rect": [
+    115,
+    52,
+    5,
+    6
+   ],
+   "entrance": [
+    117,
+    52
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 6
+  },
+  {
+   "id": 123,
+   "island": 0,
+   "rect": [
+    10,
+    58,
+    5,
+    6
+   ],
+   "entrance": [
+    12,
+    63
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 6
+  },
+  {
+   "id": 124,
+   "island": 0,
+   "rect": [
+    15,
+    58,
+    8,
+    6
+   ],
+   "entrance": [
+    18,
+    63
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 9
+  },
+  {
+   "id": 125,
+   "island": 0,
+   "rect": [
+    27,
+    58,
+    8,
+    6
+   ],
+   "entrance": [
+    30,
+    63
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 126,
+   "island": 0,
+   "rect": [
+    35,
+    58,
+    9,
+    6
+   ],
+   "entrance": [
+    39,
+    63
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 10
+  },
+  {
+   "id": 127,
+   "island": 0,
+   "rect": [
+    48,
+    58,
+    9,
+    6
+   ],
+   "entrance": [
+    52,
+    63
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 128,
+   "island": 0,
+   "rect": [
+    57,
+    58,
+    6,
+    6
+   ],
+   "entrance": [
+    59,
+    63
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 129,
+   "island": 0,
+   "rect": [
+    63,
+    58,
+    5,
+    6
+   ],
+   "entrance": [
+    65,
+    63
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 6
+  },
+  {
+   "id": 130,
+   "island": 0,
+   "rect": [
+    72,
+    58,
+    8,
+    6
+   ],
+   "entrance": [
+    75,
+    63
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 131,
+   "island": 0,
+   "rect": [
+    80,
+    58,
+    6,
+    6
+   ],
+   "entrance": [
+    82,
+    63
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 132,
+   "island": 0,
+   "rect": [
+    86,
+    58,
+    6,
+    6
+   ],
+   "entrance": [
+    88,
+    63
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 133,
+   "island": 0,
+   "rect": [
+    96,
+    58,
+    5,
+    6
+   ],
+   "entrance": [
+    98,
+    63
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 134,
+   "island": 0,
+   "rect": [
+    101,
+    58,
+    5,
+    6
+   ],
+   "entrance": [
+    103,
+    63
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 135,
+   "island": 0,
+   "rect": [
+    106,
+    58,
+    6,
+    6
+   ],
+   "entrance": [
+    108,
+    63
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 7
+  },
+  {
+   "id": 136,
+   "island": 0,
+   "rect": [
+    112,
+    58,
+    8,
+    6
+   ],
+   "entrance": [
+    115,
+    63
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 9
+  },
+  {
+   "id": 137,
+   "island": 1,
+   "rect": [
+    136,
+    60,
+    5,
+    11
+   ],
+   "entrance": [
+    138,
+    60
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 138,
+   "island": 1,
+   "rect": [
+    141,
+    60,
+    5,
+    11
+   ],
+   "entrance": [
+    143,
+    60
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 139,
+   "island": 1,
+   "rect": [
+    146,
+    60,
+    9,
+    11
+   ],
+   "entrance": [
+    150,
+    60
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 9,
+   "jobs": 0
+  },
+  {
+   "id": 140,
+   "island": 1,
+   "rect": [
+    159,
+    60,
+    7,
+    11
+   ],
+   "entrance": [
+    162,
+    60
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 7,
+   "jobs": 0
+  },
+  {
+   "id": 141,
+   "island": 1,
+   "rect": [
+    166,
+    60,
+    8,
+    11
+   ],
+   "entrance": [
+    169,
+    60
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 17
+  },
+  {
+   "id": 142,
+   "island": 1,
+   "rect": [
+    174,
+    60,
+    7,
+    11
+   ],
+   "entrance": [
+    177,
+    60
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 7,
+   "jobs": 0
+  },
+  {
+   "id": 143,
+   "island": 1,
+   "rect": [
+    185,
+    60,
+    8,
+    11
+   ],
+   "entrance": [
+    188,
+    60
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 144,
+   "island": 1,
+   "rect": [
+    193,
+    60,
+    9,
+    11
+   ],
+   "entrance": [
+    197,
+    60
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 19
+  },
+  {
+   "id": 145,
+   "island": 1,
+   "rect": [
+    206,
+    60,
+    9,
+    11
+   ],
+   "entrance": [
+    210,
+    60
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 9,
+   "jobs": 0
+  },
+  {
+   "id": 146,
+   "island": 1,
+   "rect": [
+    215,
+    60,
+    6,
+    11
+   ],
+   "entrance": [
+    217,
+    60
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 13
+  },
+  {
+   "id": 147,
+   "island": 1,
+   "rect": [
+    225,
+    60,
+    8,
+    11
+   ],
+   "entrance": [
+    228,
+    60
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 17
+  },
+  {
+   "id": 148,
+   "island": 1,
+   "rect": [
+    233,
+    60,
+    5,
+    11
+   ],
+   "entrance": [
+    235,
+    60
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 11
+  },
+  {
+   "id": 149,
+   "island": 1,
+   "rect": [
+    238,
+    60,
+    8,
+    11
+   ],
+   "entrance": [
+    241,
+    60
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 150,
+   "island": 0,
+   "rect": [
+    10,
+    68,
+    8,
+    10
+   ],
+   "entrance": [
+    13,
+    68
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 151,
+   "island": 0,
+   "rect": [
+    18,
+    68,
+    5,
+    10
+   ],
+   "entrance": [
+    20,
+    68
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 152,
+   "island": 0,
+   "rect": [
+    27,
+    68,
+    7,
+    10
+   ],
+   "entrance": [
+    30,
+    68
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 14
+  },
+  {
+   "id": 153,
+   "island": 0,
+   "rect": [
+    34,
+    68,
+    5,
+    10
+   ],
+   "entrance": [
+    36,
+    68
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 10
+  },
+  {
+   "id": 154,
+   "island": 0,
+   "rect": [
+    39,
+    68,
+    5,
+    10
+   ],
+   "entrance": [
+    41,
+    68
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 155,
+   "island": 0,
+   "rect": [
+    48,
+    68,
+    8,
+    10
+   ],
+   "entrance": [
+    51,
+    68
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 156,
+   "island": 0,
+   "rect": [
+    56,
+    68,
+    7,
+    10
+   ],
+   "entrance": [
+    59,
+    68
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 7,
+   "jobs": 0
+  },
+  {
+   "id": 157,
+   "island": 0,
+   "rect": [
+    63,
+    68,
+    5,
+    10
+   ],
+   "entrance": [
+    65,
+    68
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 158,
+   "island": 0,
+   "rect": [
+    72,
+    68,
+    9,
+    10
+   ],
+   "entrance": [
+    76,
+    68
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 18
+  },
+  {
+   "id": 159,
+   "island": 0,
+   "rect": [
+    81,
+    68,
+    5,
+    10
+   ],
+   "entrance": [
+    83,
+    68
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 160,
+   "island": 0,
+   "rect": [
+    86,
+    68,
+    6,
+    10
+   ],
+   "entrance": [
+    88,
+    68
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 161,
+   "island": 0,
+   "rect": [
+    96,
+    68,
+    8,
+    10
+   ],
+   "entrance": [
+    99,
+    68
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 16
+  },
+  {
+   "id": 162,
+   "island": 0,
+   "rect": [
+    104,
+    68,
+    5,
+    10
+   ],
+   "entrance": [
+    106,
+    68
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 163,
+   "island": 0,
+   "rect": [
+    109,
+    68,
+    6,
+    10
+   ],
+   "entrance": [
+    111,
+    68
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 164,
+   "island": 0,
+   "rect": [
+    115,
+    68,
+    5,
+    10
+   ],
+   "entrance": [
+    117,
+    68
+   ],
+   "purposes": [
+    "restaurant"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 165,
+   "island": 1,
+   "rect": [
+    136,
+    71,
+    9,
+    12
+   ],
+   "entrance": [
+    140,
+    82
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 10,
+   "jobs": 0
+  },
+  {
+   "id": 166,
+   "island": 1,
+   "rect": [
+    145,
+    71,
+    5,
+    12
+   ],
+   "entrance": [
+    147,
+    82
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 167,
+   "island": 1,
+   "rect": [
+    150,
+    71,
+    5,
+    12
+   ],
+   "entrance": [
+    152,
+    82
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 168,
+   "island": 1,
+   "rect": [
+    159,
+    71,
+    9,
+    12
+   ],
+   "entrance": [
+    163,
+    82
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 21
+  },
+  {
+   "id": 169,
+   "island": 1,
+   "rect": [
+    168,
+    71,
+    5,
+    12
+   ],
+   "entrance": [
+    170,
+    82
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 170,
+   "island": 1,
+   "rect": [
+    173,
+    71,
+    8,
+    12
+   ],
+   "entrance": [
+    176,
+    82
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 9,
+   "jobs": 0
+  },
+  {
+   "id": 171,
+   "island": 1,
+   "rect": [
+    185,
+    71,
+    7,
+    12
+   ],
+   "entrance": [
+    188,
+    82
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 172,
+   "island": 1,
+   "rect": [
+    192,
+    71,
+    5,
+    12
+   ],
+   "entrance": [
+    194,
+    82
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 173,
+   "island": 1,
+   "rect": [
+    197,
+    71,
+    5,
+    12
+   ],
+   "entrance": [
+    199,
+    82
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 174,
+   "island": 1,
+   "rect": [
+    206,
+    71,
+    8,
+    12
+   ],
+   "entrance": [
+    209,
+    82
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 9,
+   "jobs": 0
+  },
+  {
+   "id": 175,
+   "island": 1,
+   "rect": [
+    214,
+    71,
+    7,
+    12
+   ],
+   "entrance": [
+    217,
+    82
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 16
+  },
+  {
+   "id": 176,
+   "island": 1,
+   "rect": [
+    225,
+    71,
+    7,
+    12
+   ],
+   "entrance": [
+    228,
+    82
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 177,
+   "island": 1,
+   "rect": [
+    232,
+    71,
+    9,
+    12
+   ],
+   "entrance": [
+    236,
+    82
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 10,
+   "jobs": 0
+  },
+  {
+   "id": 178,
+   "island": 1,
+   "rect": [
+    241,
+    71,
+    5,
+    12
+   ],
+   "entrance": [
+    243,
+    82
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 12
+  },
+  {
+   "id": 179,
+   "island": 0,
+   "rect": [
+    10,
+    78,
+    8,
+    11
+   ],
+   "entrance": [
+    13,
+    88
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 180,
+   "island": 0,
+   "rect": [
+    18,
+    78,
+    5,
+    11
+   ],
+   "entrance": [
+    20,
+    88
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 11
+  },
+  {
+   "id": 181,
+   "island": 0,
+   "rect": [
+    27,
+    78,
+    7,
+    11
+   ],
+   "entrance": [
+    30,
+    88
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 7,
+   "jobs": 0
+  },
+  {
+   "id": 182,
+   "island": 0,
+   "rect": [
+    34,
+    78,
+    5,
+    11
+   ],
+   "entrance": [
+    36,
+    88
+   ],
+   "purposes": [
+    "home",
+    "restaurant"
+   ],
+   "home_capacity": 5,
+   "jobs": 8
+  },
+  {
+   "id": 183,
+   "island": 0,
+   "rect": [
+    39,
+    78,
+    5,
+    11
+   ],
+   "entrance": [
+    41,
+    88
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 184,
+   "island": 0,
+   "rect": [
+    48,
+    78,
+    8,
+    11
+   ],
+   "entrance": [
+    51,
+    88
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 185,
+   "island": 0,
+   "rect": [
+    56,
+    78,
+    6,
+    11
+   ],
+   "entrance": [
+    58,
+    88
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 186,
+   "island": 0,
+   "rect": [
+    62,
+    78,
+    6,
+    11
+   ],
+   "entrance": [
+    64,
+    88
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 187,
+   "island": 0,
+   "rect": [
+    72,
+    78,
+    7,
+    11
+   ],
+   "entrance": [
+    75,
+    88
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 7,
+   "jobs": 0
+  },
+  {
+   "id": 188,
+   "island": 0,
+   "rect": [
+    79,
+    78,
+    7,
+    11
+   ],
+   "entrance": [
+    82,
+    88
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 15
+  },
+  {
+   "id": 189,
+   "island": 0,
+   "rect": [
+    86,
+    78,
+    6,
+    11
+   ],
+   "entrance": [
+    88,
+    88
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 13
+  },
+  {
+   "id": 190,
+   "island": 0,
+   "rect": [
+    96,
+    78,
+    9,
+    11
+   ],
+   "entrance": [
+    100,
+    88
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 19
+  },
+  {
+   "id": 191,
+   "island": 0,
+   "rect": [
+    105,
+    78,
+    7,
+    11
+   ],
+   "entrance": [
+    108,
+    88
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 15
+  },
+  {
+   "id": 192,
+   "island": 0,
+   "rect": [
+    112,
+    78,
+    8,
+    11
+   ],
+   "entrance": [
+    115,
+    88
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 193,
+   "island": 1,
+   "rect": [
+    136,
+    87,
+    7,
+    8
+   ],
+   "entrance": [
+    139,
+    87
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 11
+  },
+  {
+   "id": 194,
+   "island": 1,
+   "rect": [
+    143,
+    87,
+    6,
+    8
+   ],
+   "entrance": [
+    145,
+    87
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 195,
+   "island": 1,
+   "rect": [
+    149,
+    87,
+    6,
+    8
+   ],
+   "entrance": [
+    151,
+    87
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 196,
+   "island": 1,
+   "rect": [
+    159,
+    87,
+    5,
+    8
+   ],
+   "entrance": [
+    161,
+    87
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 197,
+   "island": 1,
+   "rect": [
+    164,
+    87,
+    8,
+    8
+   ],
+   "entrance": [
+    167,
+    87
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 12
+  },
+  {
+   "id": 198,
+   "island": 1,
+   "rect": [
+    172,
+    87,
+    9,
+    8
+   ],
+   "entrance": [
+    176,
+    87
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 7,
+   "jobs": 0
+  },
+  {
+   "id": 199,
+   "island": 1,
+   "rect": [
+    185,
+    87,
+    7,
+    8
+   ],
+   "entrance": [
+    188,
+    87
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 200,
+   "island": 1,
+   "rect": [
+    192,
+    87,
+    5,
+    8
+   ],
+   "entrance": [
+    194,
+    87
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 201,
+   "island": 1,
+   "rect": [
+    197,
+    87,
+    5,
+    8
+   ],
+   "entrance": [
+    199,
+    87
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 202,
+   "island": 1,
+   "rect": [
+    206,
+    87,
+    7,
+    8
+   ],
+   "entrance": [
+    209,
+    87
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 203,
+   "island": 1,
+   "rect": [
+    213,
+    87,
+    8,
+    8
+   ],
+   "entrance": [
+    216,
+    87
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 12
+  },
+  {
+   "id": 204,
+   "island": 1,
+   "rect": [
+    225,
+    87,
+    5,
+    8
+   ],
+   "entrance": [
+    227,
+    87
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 205,
+   "island": 1,
+   "rect": [
+    230,
+    87,
+    9,
+    8
+   ],
+   "entrance": [
+    234,
+    87
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 14
+  },
+  {
+   "id": 206,
+   "island": 1,
+   "rect": [
+    239,
+    87,
+    7,
+    8
+   ],
+   "entrance": [
+    242,
+    87
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 207,
+   "island": 0,
+   "rect": [
+    10,
+    93,
+    8,
+    6
+   ],
+   "entrance": [
+    13,
+    93
+   ],
+   "purposes": [
+    "nightclub"
+   ],
+   "home_capacity": 0,
+   "jobs": 10
+  },
+  {
+   "id": 208,
+   "island": 0,
+   "rect": [
+    18,
+    93,
+    5,
+    6
+   ],
+   "entrance": [
+    20,
+    93
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 209,
+   "island": 0,
+   "rect": [
+    27,
+    93,
+    8,
+    6
+   ],
+   "entrance": [
+    30,
+    93
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 210,
+   "island": 0,
+   "rect": [
+    35,
+    93,
+    9,
+    6
+   ],
+   "entrance": [
+    39,
+    93
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 211,
+   "island": 0,
+   "rect": [
+    48,
+    93,
+    5,
+    6
+   ],
+   "entrance": [
+    50,
+    93
+   ],
+   "purposes": [
+    "restaurant"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 212,
+   "island": 0,
+   "rect": [
+    53,
+    93,
+    7,
+    6
+   ],
+   "entrance": [
+    56,
+    93
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 213,
+   "island": 0,
+   "rect": [
+    60,
+    93,
+    8,
+    6
+   ],
+   "entrance": [
+    63,
+    93
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 9
+  },
+  {
+   "id": 214,
+   "island": 0,
+   "rect": [
+    72,
+    93,
+    5,
+    6
+   ],
+   "entrance": [
+    74,
+    93
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 215,
+   "island": 0,
+   "rect": [
+    77,
+    93,
+    6,
+    6
+   ],
+   "entrance": [
+    79,
+    93
+   ],
+   "purposes": [
+    "nightclub"
+   ],
+   "home_capacity": 0,
+   "jobs": 10
+  },
+  {
+   "id": 216,
+   "island": 0,
+   "rect": [
+    83,
+    93,
+    9,
+    6
+   ],
+   "entrance": [
+    87,
+    93
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 10
+  },
+  {
+   "id": 217,
+   "island": 0,
+   "rect": [
+    96,
+    93,
+    8,
+    6
+   ],
+   "entrance": [
+    99,
+    93
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 9
+  },
+  {
+   "id": 218,
+   "island": 0,
+   "rect": [
+    104,
+    93,
+    5,
+    6
+   ],
+   "entrance": [
+    106,
+    93
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 6
+  },
+  {
+   "id": 219,
+   "island": 0,
+   "rect": [
+    109,
+    93,
+    5,
+    6
+   ],
+   "entrance": [
+    111,
+    93
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 220,
+   "island": 0,
+   "rect": [
+    114,
+    93,
+    6,
+    6
+   ],
+   "entrance": [
+    116,
+    93
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 221,
+   "island": 1,
+   "rect": [
+    136,
+    95,
+    7,
+    8
+   ],
+   "entrance": [
+    139,
+    102
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 11
+  },
+  {
+   "id": 222,
+   "island": 1,
+   "rect": [
+    143,
+    95,
+    6,
+    8
+   ],
+   "entrance": [
+    145,
+    102
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 9
+  },
+  {
+   "id": 223,
+   "island": 1,
+   "rect": [
+    149,
+    95,
+    6,
+    8
+   ],
+   "entrance": [
+    151,
+    102
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 224,
+   "island": 1,
+   "rect": [
+    159,
+    95,
+    5,
+    8
+   ],
+   "entrance": [
+    161,
+    102
+   ],
+   "purposes": [
+    "nightclub"
+   ],
+   "home_capacity": 0,
+   "jobs": 10
+  },
+  {
+   "id": 225,
+   "island": 1,
+   "rect": [
+    164,
+    95,
+    7,
+    8
+   ],
+   "entrance": [
+    167,
+    102
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 11
+  },
+  {
+   "id": 226,
+   "island": 1,
+   "rect": [
+    171,
+    95,
+    5,
+    8
+   ],
+   "entrance": [
+    173,
+    102
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 227,
+   "island": 1,
+   "rect": [
+    176,
+    95,
+    5,
+    8
+   ],
+   "entrance": [
+    178,
+    102
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 228,
+   "island": 1,
+   "rect": [
+    185,
+    95,
+    7,
+    8
+   ],
+   "entrance": [
+    188,
+    102
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 229,
+   "island": 1,
+   "rect": [
+    192,
+    95,
+    5,
+    8
+   ],
+   "entrance": [
+    194,
+    102
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 230,
+   "island": 1,
+   "rect": [
+    197,
+    95,
+    5,
+    8
+   ],
+   "entrance": [
+    199,
+    102
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 231,
+   "island": 1,
+   "rect": [
+    206,
+    95,
+    9,
+    8
+   ],
+   "entrance": [
+    210,
+    102
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 7,
+   "jobs": 0
+  },
+  {
+   "id": 232,
+   "island": 1,
+   "rect": [
+    215,
+    95,
+    6,
+    8
+   ],
+   "entrance": [
+    217,
+    102
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 233,
+   "island": 1,
+   "rect": [
+    225,
+    95,
+    7,
+    8
+   ],
+   "entrance": [
+    228,
+    102
+   ],
+   "purposes": [
+    "home",
+    "restaurant"
+   ],
+   "home_capacity": 5,
+   "jobs": 8
+  },
+  {
+   "id": 234,
+   "island": 1,
+   "rect": [
+    232,
+    95,
+    6,
+    8
+   ],
+   "entrance": [
+    234,
+    102
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 9
+  },
+  {
+   "id": 235,
+   "island": 1,
+   "rect": [
+    238,
+    95,
+    8,
+    8
+   ],
+   "entrance": [
+    241,
+    102
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 236,
+   "island": 0,
+   "rect": [
+    10,
+    99,
+    6,
+    7
+   ],
+   "entrance": [
+    12,
+    105
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 237,
+   "island": 0,
+   "rect": [
+    16,
+    99,
+    7,
+    7
+   ],
+   "entrance": [
+    19,
+    105
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 238,
+   "island": 0,
+   "rect": [
+    27,
+    99,
+    8,
+    7
+   ],
+   "entrance": [
+    30,
+    105
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 239,
+   "island": 0,
+   "rect": [
+    35,
+    99,
+    9,
+    7
+   ],
+   "entrance": [
+    39,
+    105
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 240,
+   "island": 0,
+   "rect": [
+    48,
+    99,
+    8,
+    7
+   ],
+   "entrance": [
+    51,
+    105
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 11
+  },
+  {
+   "id": 241,
+   "island": 0,
+   "rect": [
+    56,
+    99,
+    6,
+    7
+   ],
+   "entrance": [
+    58,
+    105
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 242,
+   "island": 0,
+   "rect": [
+    62,
+    99,
+    6,
+    7
+   ],
+   "entrance": [
+    64,
+    105
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 243,
+   "island": 0,
+   "rect": [
+    72,
+    99,
+    8,
+    7
+   ],
+   "entrance": [
+    75,
+    105
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 244,
+   "island": 0,
+   "rect": [
+    80,
+    99,
+    5,
+    7
+   ],
+   "entrance": [
+    82,
+    105
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 7
+  },
+  {
+   "id": 245,
+   "island": 0,
+   "rect": [
+    85,
+    99,
+    7,
+    7
+   ],
+   "entrance": [
+    88,
+    105
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 9
+  },
+  {
+   "id": 246,
+   "island": 0,
+   "rect": [
+    96,
+    99,
+    5,
+    7
+   ],
+   "entrance": [
+    98,
+    105
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 247,
+   "island": 0,
+   "rect": [
+    101,
+    99,
+    8,
+    7
+   ],
+   "entrance": [
+    104,
+    105
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 248,
+   "island": 0,
+   "rect": [
+    109,
+    99,
+    5,
+    7
+   ],
+   "entrance": [
+    111,
+    105
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 7
+  },
+  {
+   "id": 249,
+   "island": 0,
+   "rect": [
+    114,
+    99,
+    6,
+    7
+   ],
+   "entrance": [
+    116,
+    105
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 250,
+   "island": 1,
+   "rect": [
+    136,
+    107,
+    9,
+    6
+   ],
+   "entrance": [
+    140,
+    107
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 251,
+   "island": 1,
+   "rect": [
+    145,
+    107,
+    5,
+    6
+   ],
+   "entrance": [
+    147,
+    107
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 252,
+   "island": 1,
+   "rect": [
+    150,
+    107,
+    5,
+    6
+   ],
+   "entrance": [
+    152,
+    107
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 6
+  },
+  {
+   "id": 253,
+   "island": 1,
+   "rect": [
+    159,
+    107,
+    9,
+    6
+   ],
+   "entrance": [
+    163,
+    107
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 10
+  },
+  {
+   "id": 254,
+   "island": 1,
+   "rect": [
+    168,
+    107,
+    5,
+    6
+   ],
+   "entrance": [
+    170,
+    107
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 255,
+   "island": 1,
+   "rect": [
+    173,
+    107,
+    8,
+    6
+   ],
+   "entrance": [
+    176,
+    107
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 256,
+   "island": 1,
+   "rect": [
+    185,
+    107,
+    17,
+    13
+   ],
+   "entrance": [
+    193,
+    107
+   ],
+   "purposes": [
+    "school"
+   ],
+   "home_capacity": 0,
+   "jobs": 25
+  },
+  {
+   "id": 257,
+   "island": 1,
+   "rect": [
+    206,
+    107,
+    9,
+    6
+   ],
+   "entrance": [
+    210,
+    107
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 10
+  },
+  {
+   "id": 258,
+   "island": 1,
+   "rect": [
+    215,
+    107,
+    6,
+    6
+   ],
+   "entrance": [
+    217,
+    107
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 259,
+   "island": 1,
+   "rect": [
+    225,
+    107,
+    9,
+    6
+   ],
+   "entrance": [
+    229,
+    107
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 10
+  },
+  {
+   "id": 260,
+   "island": 1,
+   "rect": [
+    234,
+    107,
+    7,
+    6
+   ],
+   "entrance": [
+    237,
+    107
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 261,
+   "island": 1,
+   "rect": [
+    241,
+    107,
+    5,
+    6
+   ],
+   "entrance": [
+    243,
+    107
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 262,
+   "island": 0,
+   "rect": [
+    10,
+    110,
+    6,
+    6
+   ],
+   "entrance": [
+    12,
+    110
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 263,
+   "island": 0,
+   "rect": [
+    16,
+    110,
+    7,
+    6
+   ],
+   "entrance": [
+    19,
+    110
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 264,
+   "island": 0,
+   "rect": [
+    27,
+    110,
+    5,
+    6
+   ],
+   "entrance": [
+    29,
+    110
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 265,
+   "island": 0,
+   "rect": [
+    32,
+    110,
+    7,
+    6
+   ],
+   "entrance": [
+    35,
+    110
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 266,
+   "island": 0,
+   "rect": [
+    39,
+    110,
+    5,
+    6
+   ],
+   "entrance": [
+    41,
+    110
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 267,
+   "island": 0,
+   "rect": [
+    48,
+    110,
+    7,
+    6
+   ],
+   "entrance": [
+    51,
+    110
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 268,
+   "island": 0,
+   "rect": [
+    55,
+    110,
+    7,
+    6
+   ],
+   "entrance": [
+    58,
+    110
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 269,
+   "island": 0,
+   "rect": [
+    62,
+    110,
+    6,
+    6
+   ],
+   "entrance": [
+    64,
+    110
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 7
+  },
+  {
+   "id": 270,
+   "island": 0,
+   "rect": [
+    72,
+    110,
+    7,
+    6
+   ],
+   "entrance": [
+    75,
+    110
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 271,
+   "island": 0,
+   "rect": [
+    79,
+    110,
+    8,
+    6
+   ],
+   "entrance": [
+    82,
+    110
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 9
+  },
+  {
+   "id": 272,
+   "island": 0,
+   "rect": [
+    87,
+    110,
+    5,
+    6
+   ],
+   "entrance": [
+    89,
+    110
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 273,
+   "island": 0,
+   "rect": [
+    96,
+    110,
+    6,
+    6
+   ],
+   "entrance": [
+    98,
+    110
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 7
+  },
+  {
+   "id": 274,
+   "island": 0,
+   "rect": [
+    102,
+    110,
+    8,
+    6
+   ],
+   "entrance": [
+    105,
+    110
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 275,
+   "island": 0,
+   "rect": [
+    110,
+    110,
+    5,
+    6
+   ],
+   "entrance": [
+    112,
+    110
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 276,
+   "island": 0,
+   "rect": [
+    115,
+    110,
+    5,
+    6
+   ],
+   "entrance": [
+    117,
+    110
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 6
+  },
+  {
+   "id": 277,
+   "island": 1,
+   "rect": [
+    136,
+    113,
+    5,
+    7
+   ],
+   "entrance": [
+    138,
+    119
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 278,
+   "island": 1,
+   "rect": [
+    141,
+    113,
+    6,
+    7
+   ],
+   "entrance": [
+    143,
+    119
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 279,
+   "island": 1,
+   "rect": [
+    147,
+    113,
+    8,
+    7
+   ],
+   "entrance": [
+    150,
+    119
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 11
+  },
+  {
+   "id": 280,
+   "island": 1,
+   "rect": [
+    159,
+    113,
+    5,
+    7
+   ],
+   "entrance": [
+    161,
+    119
+   ],
+   "purposes": [
+    "restaurant"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 281,
+   "island": 1,
+   "rect": [
+    164,
+    113,
+    5,
+    7
+   ],
+   "entrance": [
+    166,
+    119
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 282,
+   "island": 1,
+   "rect": [
+    169,
+    113,
+    5,
+    7
+   ],
+   "entrance": [
+    171,
+    119
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 7
+  },
+  {
+   "id": 283,
+   "island": 1,
+   "rect": [
+    174,
+    113,
+    7,
+    7
+   ],
+   "entrance": [
+    177,
+    119
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 284,
+   "island": 1,
+   "rect": [
+    206,
+    113,
+    7,
+    7
+   ],
+   "entrance": [
+    209,
+    119
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 285,
+   "island": 1,
+   "rect": [
+    213,
+    113,
+    8,
+    7
+   ],
+   "entrance": [
+    216,
+    119
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 286,
+   "island": 1,
+   "rect": [
+    225,
+    113,
+    7,
+    7
+   ],
+   "entrance": [
+    228,
+    119
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 9
+  },
+  {
+   "id": 287,
+   "island": 1,
+   "rect": [
+    232,
+    113,
+    5,
+    7
+   ],
+   "entrance": [
+    234,
+    119
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 288,
+   "island": 1,
+   "rect": [
+    237,
+    113,
+    9,
+    7
+   ],
+   "entrance": [
+    241,
+    119
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 289,
+   "island": 0,
+   "rect": [
+    10,
+    116,
+    6,
+    7
+   ],
+   "entrance": [
+    12,
+    122
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 290,
+   "island": 0,
+   "rect": [
+    16,
+    116,
+    7,
+    7
+   ],
+   "entrance": [
+    19,
+    122
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 291,
+   "island": 0,
+   "rect": [
+    27,
+    116,
+    5,
+    7
+   ],
+   "entrance": [
+    29,
+    122
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 292,
+   "island": 0,
+   "rect": [
+    32,
+    116,
+    7,
+    7
+   ],
+   "entrance": [
+    35,
+    122
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 9
+  },
+  {
+   "id": 293,
+   "island": 0,
+   "rect": [
+    39,
+    116,
+    5,
+    7
+   ],
+   "entrance": [
+    41,
+    122
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 294,
+   "island": 0,
+   "rect": [
+    48,
+    116,
+    6,
+    7
+   ],
+   "entrance": [
+    50,
+    122
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 295,
+   "island": 0,
+   "rect": [
+    54,
+    116,
+    5,
+    7
+   ],
+   "entrance": [
+    56,
+    122
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 296,
+   "island": 0,
+   "rect": [
+    59,
+    116,
+    9,
+    7
+   ],
+   "entrance": [
+    63,
+    122
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 12
+  },
+  {
+   "id": 297,
+   "island": 0,
+   "rect": [
+    72,
+    116,
+    6,
+    7
+   ],
+   "entrance": [
+    74,
+    122
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 298,
+   "island": 0,
+   "rect": [
+    78,
+    116,
+    9,
+    7
+   ],
+   "entrance": [
+    82,
+    122
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 12
+  },
+  {
+   "id": 299,
+   "island": 0,
+   "rect": [
+    87,
+    116,
+    5,
+    7
+   ],
+   "entrance": [
+    89,
+    122
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 300,
+   "island": 0,
+   "rect": [
+    96,
+    116,
+    9,
+    7
+   ],
+   "entrance": [
+    100,
+    122
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 12
+  },
+  {
+   "id": 301,
+   "island": 0,
+   "rect": [
+    105,
+    116,
+    9,
+    7
+   ],
+   "entrance": [
+    109,
+    122
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 302,
+   "island": 0,
+   "rect": [
+    114,
+    116,
+    6,
+    7
+   ],
+   "entrance": [
+    116,
+    122
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 303,
+   "island": 0,
+   "rect": [
+    10,
+    127,
+    7,
+    8
+   ],
+   "entrance": [
+    13,
+    127
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 304,
+   "island": 0,
+   "rect": [
+    17,
+    127,
+    6,
+    8
+   ],
+   "entrance": [
+    19,
+    127
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 9
+  },
+  {
+   "id": 305,
+   "island": 0,
+   "rect": [
+    27,
+    127,
+    8,
+    8
+   ],
+   "entrance": [
+    30,
+    127
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 306,
+   "island": 0,
+   "rect": [
+    35,
+    127,
+    9,
+    8
+   ],
+   "entrance": [
+    39,
+    127
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 7,
+   "jobs": 0
+  },
+  {
+   "id": 307,
+   "island": 0,
+   "rect": [
+    48,
+    127,
+    9,
+    8
+   ],
+   "entrance": [
+    52,
+    127
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 7,
+   "jobs": 0
+  },
+  {
+   "id": 308,
+   "island": 0,
+   "rect": [
+    57,
+    127,
+    6,
+    8
+   ],
+   "entrance": [
+    59,
+    127
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 309,
+   "island": 0,
+   "rect": [
+    63,
+    127,
+    5,
+    8
+   ],
+   "entrance": [
+    65,
+    127
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 310,
+   "island": 0,
+   "rect": [
+    72,
+    127,
+    8,
+    8
+   ],
+   "entrance": [
+    75,
+    127
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 311,
+   "island": 0,
+   "rect": [
+    80,
+    127,
+    5,
+    8
+   ],
+   "entrance": [
+    82,
+    127
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 312,
+   "island": 0,
+   "rect": [
+    85,
+    127,
+    7,
+    8
+   ],
+   "entrance": [
+    88,
+    127
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 313,
+   "island": 0,
+   "rect": [
+    96,
+    127,
+    8,
+    8
+   ],
+   "entrance": [
+    99,
+    127
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 314,
+   "island": 0,
+   "rect": [
+    104,
+    127,
+    5,
+    8
+   ],
+   "entrance": [
+    106,
+    127
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 315,
+   "island": 0,
+   "rect": [
+    109,
+    127,
+    5,
+    8
+   ],
+   "entrance": [
+    111,
+    127
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 316,
+   "island": 0,
+   "rect": [
+    114,
+    127,
+    6,
+    8
+   ],
+   "entrance": [
+    116,
+    127
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 317,
+   "island": 0,
+   "rect": [
+    10,
+    135,
+    5,
+    8
+   ],
+   "entrance": [
+    12,
+    142
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 318,
+   "island": 0,
+   "rect": [
+    15,
+    135,
+    8,
+    8
+   ],
+   "entrance": [
+    18,
+    142
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 319,
+   "island": 0,
+   "rect": [
+    27,
+    135,
+    6,
+    8
+   ],
+   "entrance": [
+    29,
+    142
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 320,
+   "island": 0,
+   "rect": [
+    33,
+    135,
+    5,
+    8
+   ],
+   "entrance": [
+    35,
+    142
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 321,
+   "island": 0,
+   "rect": [
+    38,
+    135,
+    6,
+    8
+   ],
+   "entrance": [
+    40,
+    142
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 322,
+   "island": 0,
+   "rect": [
+    48,
+    135,
+    9,
+    8
+   ],
+   "entrance": [
+    52,
+    142
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 7,
+   "jobs": 0
+  },
+  {
+   "id": 323,
+   "island": 0,
+   "rect": [
+    57,
+    135,
+    6,
+    8
+   ],
+   "entrance": [
+    59,
+    142
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 9
+  },
+  {
+   "id": 324,
+   "island": 0,
+   "rect": [
+    63,
+    135,
+    5,
+    8
+   ],
+   "entrance": [
+    65,
+    142
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 325,
+   "island": 0,
+   "rect": [
+    72,
+    135,
+    9,
+    8
+   ],
+   "entrance": [
+    76,
+    142
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 14
+  },
+  {
+   "id": 326,
+   "island": 0,
+   "rect": [
+    81,
+    135,
+    5,
+    8
+   ],
+   "entrance": [
+    83,
+    142
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 327,
+   "island": 0,
+   "rect": [
+    86,
+    135,
+    6,
+    8
+   ],
+   "entrance": [
+    88,
+    142
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 328,
+   "island": 0,
+   "rect": [
+    96,
+    135,
+    8,
+    8
+   ],
+   "entrance": [
+    99,
+    142
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 329,
+   "island": 0,
+   "rect": [
+    104,
+    135,
+    5,
+    8
+   ],
+   "entrance": [
+    106,
+    142
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 330,
+   "island": 0,
+   "rect": [
+    109,
+    135,
+    5,
+    8
+   ],
+   "entrance": [
+    111,
+    142
+   ],
+   "purposes": [
+    "restaurant"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 331,
+   "island": 0,
+   "rect": [
+    114,
+    135,
+    6,
+    8
+   ],
+   "entrance": [
+    116,
+    142
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 9
+  },
+  {
+   "id": 332,
+   "island": 2,
+   "rect": [
+    136,
+    136,
+    8,
+    8
+   ],
+   "entrance": [
+    139,
+    136
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 333,
+   "island": 2,
+   "rect": [
+    144,
+    136,
+    9,
+    8
+   ],
+   "entrance": [
+    148,
+    136
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 14
+  },
+  {
+   "id": 334,
+   "island": 2,
+   "rect": [
+    153,
+    136,
+    5,
+    8
+   ],
+   "entrance": [
+    155,
+    136
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 335,
+   "island": 2,
+   "rect": [
+    162,
+    136,
+    8,
+    8
+   ],
+   "entrance": [
+    165,
+    136
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 336,
+   "island": 2,
+   "rect": [
+    170,
+    136,
+    5,
+    8
+   ],
+   "entrance": [
+    172,
+    136
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 337,
+   "island": 2,
+   "rect": [
+    179,
+    136,
+    8,
+    8
+   ],
+   "entrance": [
+    182,
+    136
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 12
+  },
+  {
+   "id": 338,
+   "island": 2,
+   "rect": [
+    187,
+    136,
+    6,
+    8
+   ],
+   "entrance": [
+    189,
+    136
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 9
+  },
+  {
+   "id": 339,
+   "island": 2,
+   "rect": [
+    193,
+    136,
+    9,
+    8
+   ],
+   "entrance": [
+    197,
+    136
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 14
+  },
+  {
+   "id": 340,
+   "island": 2,
+   "rect": [
+    206,
+    136,
+    6,
+    8
+   ],
+   "entrance": [
+    208,
+    136
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 9
+  },
+  {
+   "id": 341,
+   "island": 2,
+   "rect": [
+    212,
+    136,
+    5,
+    8
+   ],
+   "entrance": [
+    214,
+    136
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 342,
+   "island": 2,
+   "rect": [
+    217,
+    136,
+    6,
+    8
+   ],
+   "entrance": [
+    219,
+    136
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 343,
+   "island": 2,
+   "rect": [
+    227,
+    136,
+    5,
+    8
+   ],
+   "entrance": [
+    229,
+    136
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 344,
+   "island": 2,
+   "rect": [
+    232,
+    136,
+    9,
+    8
+   ],
+   "entrance": [
+    236,
+    136
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 14
+  },
+  {
+   "id": 345,
+   "island": 2,
+   "rect": [
+    241,
+    136,
+    5,
+    8
+   ],
+   "entrance": [
+    243,
+    136
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 346,
+   "island": 2,
+   "rect": [
+    136,
+    144,
+    6,
+    8
+   ],
+   "entrance": [
+    138,
+    151
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 347,
+   "island": 2,
+   "rect": [
+    142,
+    144,
+    7,
+    8
+   ],
+   "entrance": [
+    145,
+    151
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 348,
+   "island": 2,
+   "rect": [
+    149,
+    144,
+    9,
+    8
+   ],
+   "entrance": [
+    153,
+    151
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 14
+  },
+  {
+   "id": 349,
+   "island": 2,
+   "rect": [
+    162,
+    144,
+    8,
+    8
+   ],
+   "entrance": [
+    165,
+    151
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 350,
+   "island": 2,
+   "rect": [
+    170,
+    144,
+    5,
+    8
+   ],
+   "entrance": [
+    172,
+    151
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 351,
+   "island": 2,
+   "rect": [
+    179,
+    144,
+    8,
+    8
+   ],
+   "entrance": [
+    182,
+    151
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 352,
+   "island": 2,
+   "rect": [
+    187,
+    144,
+    6,
+    8
+   ],
+   "entrance": [
+    189,
+    151
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 353,
+   "island": 2,
+   "rect": [
+    193,
+    144,
+    9,
+    8
+   ],
+   "entrance": [
+    197,
+    151
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 14
+  },
+  {
+   "id": 354,
+   "island": 2,
+   "rect": [
+    206,
+    144,
+    9,
+    8
+   ],
+   "entrance": [
+    210,
+    151
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 7,
+   "jobs": 0
+  },
+  {
+   "id": 355,
+   "island": 2,
+   "rect": [
+    215,
+    144,
+    8,
+    8
+   ],
+   "entrance": [
+    218,
+    151
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 12
+  },
+  {
+   "id": 356,
+   "island": 2,
+   "rect": [
+    227,
+    144,
+    9,
+    8
+   ],
+   "entrance": [
+    231,
+    151
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 7,
+   "jobs": 0
+  },
+  {
+   "id": 357,
+   "island": 2,
+   "rect": [
+    236,
+    144,
+    5,
+    8
+   ],
+   "entrance": [
+    238,
+    151
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 358,
+   "island": 2,
+   "rect": [
+    241,
+    144,
+    5,
+    8
+   ],
+   "entrance": [
+    243,
+    151
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 359,
+   "island": 0,
+   "rect": [
+    10,
+    147,
+    7,
+    6
+   ],
+   "entrance": [
+    13,
+    147
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 360,
+   "island": 0,
+   "rect": [
+    17,
+    147,
+    6,
+    6
+   ],
+   "entrance": [
+    19,
+    147
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 361,
+   "island": 0,
+   "rect": [
+    27,
+    147,
+    5,
+    6
+   ],
+   "entrance": [
+    29,
+    147
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 362,
+   "island": 0,
+   "rect": [
+    32,
+    147,
+    5,
+    6
+   ],
+   "entrance": [
+    34,
+    147
+   ],
+   "purposes": [
+    "restaurant"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 363,
+   "island": 0,
+   "rect": [
+    37,
+    147,
+    7,
+    6
+   ],
+   "entrance": [
+    40,
+    147
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 364,
+   "island": 0,
+   "rect": [
+    48,
+    147,
+    8,
+    6
+   ],
+   "entrance": [
+    51,
+    147
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 9
+  },
+  {
+   "id": 365,
+   "island": 0,
+   "rect": [
+    56,
+    147,
+    6,
+    6
+   ],
+   "entrance": [
+    58,
+    147
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 7
+  },
+  {
+   "id": 366,
+   "island": 0,
+   "rect": [
+    62,
+    147,
+    6,
+    6
+   ],
+   "entrance": [
+    64,
+    147
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 7
+  },
+  {
+   "id": 367,
+   "island": 0,
+   "rect": [
+    72,
+    147,
+    7,
+    6
+   ],
+   "entrance": [
+    75,
+    147
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 368,
+   "island": 0,
+   "rect": [
+    79,
+    147,
+    5,
+    6
+   ],
+   "entrance": [
+    81,
+    147
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 369,
+   "island": 0,
+   "rect": [
+    84,
+    147,
+    8,
+    6
+   ],
+   "entrance": [
+    87,
+    147
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 370,
+   "island": 0,
+   "rect": [
+    96,
+    147,
+    9,
+    6
+   ],
+   "entrance": [
+    100,
+    147
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 371,
+   "island": 0,
+   "rect": [
+    105,
+    147,
+    9,
+    6
+   ],
+   "entrance": [
+    109,
+    147
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 372,
+   "island": 0,
+   "rect": [
+    114,
+    147,
+    6,
+    6
+   ],
+   "entrance": [
+    116,
+    147
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 7
+  },
+  {
+   "id": 373,
+   "island": 0,
+   "rect": [
+    10,
+    153,
+    7,
+    7
+   ],
+   "entrance": [
+    13,
+    159
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 374,
+   "island": 0,
+   "rect": [
+    17,
+    153,
+    6,
+    7
+   ],
+   "entrance": [
+    19,
+    159
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 375,
+   "island": 0,
+   "rect": [
+    27,
+    153,
+    9,
+    7
+   ],
+   "entrance": [
+    31,
+    159
+   ],
+   "purposes": [
+    "home",
+    "restaurant"
+   ],
+   "home_capacity": 6,
+   "jobs": 8
+  },
+  {
+   "id": 376,
+   "island": 0,
+   "rect": [
+    36,
+    153,
+    8,
+    7
+   ],
+   "entrance": [
+    39,
+    159
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 377,
+   "island": 0,
+   "rect": [
+    48,
+    153,
+    7,
+    7
+   ],
+   "entrance": [
+    51,
+    159
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 378,
+   "island": 0,
+   "rect": [
+    55,
+    153,
+    8,
+    7
+   ],
+   "entrance": [
+    58,
+    159
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 379,
+   "island": 0,
+   "rect": [
+    63,
+    153,
+    5,
+    7
+   ],
+   "entrance": [
+    65,
+    159
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 7
+  },
+  {
+   "id": 380,
+   "island": 0,
+   "rect": [
+    72,
+    153,
+    8,
+    7
+   ],
+   "entrance": [
+    75,
+    159
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 381,
+   "island": 0,
+   "rect": [
+    80,
+    153,
+    6,
+    7
+   ],
+   "entrance": [
+    82,
+    159
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 382,
+   "island": 0,
+   "rect": [
+    86,
+    153,
+    6,
+    7
+   ],
+   "entrance": [
+    88,
+    159
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 383,
+   "island": 0,
+   "rect": [
+    96,
+    153,
+    6,
+    7
+   ],
+   "entrance": [
+    98,
+    159
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 384,
+   "island": 0,
+   "rect": [
+    102,
+    153,
+    6,
+    7
+   ],
+   "entrance": [
+    104,
+    159
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 385,
+   "island": 0,
+   "rect": [
+    108,
+    153,
+    7,
+    7
+   ],
+   "entrance": [
+    111,
+    159
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 9
+  },
+  {
+   "id": 386,
+   "island": 0,
+   "rect": [
+    115,
+    153,
+    5,
+    7
+   ],
+   "entrance": [
+    117,
+    159
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 387,
+   "island": 2,
+   "rect": [
+    136,
+    156,
+    7,
+    9
+   ],
+   "entrance": [
+    139,
+    156
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 388,
+   "island": 2,
+   "rect": [
+    143,
+    156,
+    6,
+    9
+   ],
+   "entrance": [
+    145,
+    156
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 389,
+   "island": 2,
+   "rect": [
+    149,
+    156,
+    9,
+    9
+   ],
+   "entrance": [
+    153,
+    156
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 16
+  },
+  {
+   "id": 390,
+   "island": 2,
+   "rect": [
+    162,
+    156,
+    7,
+    9
+   ],
+   "entrance": [
+    165,
+    156
+   ],
+   "purposes": [
+    "restaurant"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 391,
+   "island": 2,
+   "rect": [
+    169,
+    156,
+    6,
+    9
+   ],
+   "entrance": [
+    171,
+    156
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 392,
+   "island": 2,
+   "rect": [
+    179,
+    156,
+    8,
+    9
+   ],
+   "entrance": [
+    182,
+    156
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 7,
+   "jobs": 0
+  },
+  {
+   "id": 393,
+   "island": 2,
+   "rect": [
+    187,
+    156,
+    7,
+    9
+   ],
+   "entrance": [
+    190,
+    156
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 394,
+   "island": 2,
+   "rect": [
+    194,
+    156,
+    8,
+    9
+   ],
+   "entrance": [
+    197,
+    156
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 7,
+   "jobs": 0
+  },
+  {
+   "id": 395,
+   "island": 2,
+   "rect": [
+    206,
+    156,
+    6,
+    9
+   ],
+   "entrance": [
+    208,
+    156
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 396,
+   "island": 2,
+   "rect": [
+    212,
+    156,
+    5,
+    9
+   ],
+   "entrance": [
+    214,
+    156
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 9
+  },
+  {
+   "id": 397,
+   "island": 2,
+   "rect": [
+    217,
+    156,
+    6,
+    9
+   ],
+   "entrance": [
+    219,
+    156
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 398,
+   "island": 2,
+   "rect": [
+    227,
+    156,
+    7,
+    9
+   ],
+   "entrance": [
+    230,
+    156
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 399,
+   "island": 2,
+   "rect": [
+    234,
+    156,
+    6,
+    9
+   ],
+   "entrance": [
+    236,
+    156
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 10
+  },
+  {
+   "id": 400,
+   "island": 2,
+   "rect": [
+    240,
+    156,
+    6,
+    9
+   ],
+   "entrance": [
+    242,
+    156
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 10
+  },
+  {
+   "id": 401,
+   "island": 0,
+   "rect": [
+    10,
+    164,
+    6,
+    9
+   ],
+   "entrance": [
+    12,
+    164
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 402,
+   "island": 0,
+   "rect": [
+    16,
+    164,
+    7,
+    9
+   ],
+   "entrance": [
+    19,
+    164
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 403,
+   "island": 0,
+   "rect": [
+    27,
+    164,
+    9,
+    9
+   ],
+   "entrance": [
+    31,
+    164
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 16
+  },
+  {
+   "id": 404,
+   "island": 0,
+   "rect": [
+    36,
+    164,
+    8,
+    9
+   ],
+   "entrance": [
+    39,
+    164
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 14
+  },
+  {
+   "id": 405,
+   "island": 0,
+   "rect": [
+    48,
+    164,
+    9,
+    9
+   ],
+   "entrance": [
+    52,
+    164
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 16
+  },
+  {
+   "id": 406,
+   "island": 0,
+   "rect": [
+    57,
+    164,
+    5,
+    9
+   ],
+   "entrance": [
+    59,
+    164
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 407,
+   "island": 0,
+   "rect": [
+    62,
+    164,
+    6,
+    9
+   ],
+   "entrance": [
+    64,
+    164
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 408,
+   "island": 0,
+   "rect": [
+    72,
+    164,
+    8,
+    9
+   ],
+   "entrance": [
+    75,
+    164
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 14
+  },
+  {
+   "id": 409,
+   "island": 0,
+   "rect": [
+    80,
+    164,
+    5,
+    9
+   ],
+   "entrance": [
+    82,
+    164
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 9
+  },
+  {
+   "id": 410,
+   "island": 0,
+   "rect": [
+    85,
+    164,
+    7,
+    9
+   ],
+   "entrance": [
+    88,
+    164
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 411,
+   "island": 0,
+   "rect": [
+    96,
+    164,
+    5,
+    9
+   ],
+   "entrance": [
+    98,
+    164
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 412,
+   "island": 0,
+   "rect": [
+    101,
+    164,
+    9,
+    9
+   ],
+   "entrance": [
+    105,
+    164
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 16
+  },
+  {
+   "id": 413,
+   "island": 0,
+   "rect": [
+    110,
+    164,
+    5,
+    9
+   ],
+   "entrance": [
+    112,
+    164
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 414,
+   "island": 0,
+   "rect": [
+    115,
+    164,
+    5,
+    9
+   ],
+   "entrance": [
+    117,
+    164
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 9
+  },
+  {
+   "id": 415,
+   "island": 2,
+   "rect": [
+    136,
+    165,
+    6,
+    10
+   ],
+   "entrance": [
+    138,
+    174
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 416,
+   "island": 2,
+   "rect": [
+    142,
+    165,
+    5,
+    10
+   ],
+   "entrance": [
+    144,
+    174
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 417,
+   "island": 2,
+   "rect": [
+    147,
+    165,
+    5,
+    10
+   ],
+   "entrance": [
+    149,
+    174
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 10
+  },
+  {
+   "id": 418,
+   "island": 2,
+   "rect": [
+    152,
+    165,
+    6,
+    10
+   ],
+   "entrance": [
+    154,
+    174
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 419,
+   "island": 2,
+   "rect": [
+    162,
+    165,
+    8,
+    10
+   ],
+   "entrance": [
+    165,
+    174
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 16
+  },
+  {
+   "id": 420,
+   "island": 2,
+   "rect": [
+    170,
+    165,
+    5,
+    10
+   ],
+   "entrance": [
+    172,
+    174
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 421,
+   "island": 2,
+   "rect": [
+    179,
+    165,
+    7,
+    10
+   ],
+   "entrance": [
+    182,
+    174
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 7,
+   "jobs": 0
+  },
+  {
+   "id": 422,
+   "island": 2,
+   "rect": [
+    186,
+    165,
+    6,
+    10
+   ],
+   "entrance": [
+    188,
+    174
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 423,
+   "island": 2,
+   "rect": [
+    192,
+    165,
+    5,
+    10
+   ],
+   "entrance": [
+    194,
+    174
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 10
+  },
+  {
+   "id": 424,
+   "island": 2,
+   "rect": [
+    197,
+    165,
+    5,
+    10
+   ],
+   "entrance": [
+    199,
+    174
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 425,
+   "island": 2,
+   "rect": [
+    206,
+    165,
+    9,
+    10
+   ],
+   "entrance": [
+    210,
+    174
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 9,
+   "jobs": 0
+  },
+  {
+   "id": 426,
+   "island": 2,
+   "rect": [
+    215,
+    165,
+    8,
+    10
+   ],
+   "entrance": [
+    218,
+    174
+   ],
+   "purposes": [
+    "restaurant"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 427,
+   "island": 2,
+   "rect": [
+    227,
+    165,
+    9,
+    10
+   ],
+   "entrance": [
+    231,
+    174
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 9,
+   "jobs": 0
+  },
+  {
+   "id": 428,
+   "island": 2,
+   "rect": [
+    236,
+    165,
+    5,
+    10
+   ],
+   "entrance": [
+    238,
+    174
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 429,
+   "island": 2,
+   "rect": [
+    241,
+    165,
+    5,
+    10
+   ],
+   "entrance": [
+    243,
+    174
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 430,
+   "island": 0,
+   "rect": [
+    10,
+    173,
+    8,
+    10
+   ],
+   "entrance": [
+    13,
+    182
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 431,
+   "island": 0,
+   "rect": [
+    18,
+    173,
+    5,
+    10
+   ],
+   "entrance": [
+    20,
+    182
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 10
+  },
+  {
+   "id": 432,
+   "island": 0,
+   "rect": [
+    27,
+    173,
+    7,
+    10
+   ],
+   "entrance": [
+    30,
+    182
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 7,
+   "jobs": 0
+  },
+  {
+   "id": 433,
+   "island": 0,
+   "rect": [
+    34,
+    173,
+    5,
+    10
+   ],
+   "entrance": [
+    36,
+    182
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 434,
+   "island": 0,
+   "rect": [
+    39,
+    173,
+    5,
+    10
+   ],
+   "entrance": [
+    41,
+    182
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 10
+  },
+  {
+   "id": 435,
+   "island": 0,
+   "rect": [
+    48,
+    173,
+    5,
+    10
+   ],
+   "entrance": [
+    50,
+    182
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 10
+  },
+  {
+   "id": 436,
+   "island": 0,
+   "rect": [
+    53,
+    173,
+    9,
+    10
+   ],
+   "entrance": [
+    57,
+    182
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 18
+  },
+  {
+   "id": 437,
+   "island": 0,
+   "rect": [
+    62,
+    173,
+    6,
+    10
+   ],
+   "entrance": [
+    64,
+    182
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 438,
+   "island": 0,
+   "rect": [
+    72,
+    173,
+    6,
+    10
+   ],
+   "entrance": [
+    74,
+    182
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 439,
+   "island": 0,
+   "rect": [
+    78,
+    173,
+    6,
+    10
+   ],
+   "entrance": [
+    80,
+    182
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 12
+  },
+  {
+   "id": 440,
+   "island": 0,
+   "rect": [
+    84,
+    173,
+    8,
+    10
+   ],
+   "entrance": [
+    87,
+    182
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 16
+  },
+  {
+   "id": 441,
+   "island": 0,
+   "rect": [
+    96,
+    173,
+    8,
+    10
+   ],
+   "entrance": [
+    99,
+    182
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 442,
+   "island": 0,
+   "rect": [
+    104,
+    173,
+    6,
+    10
+   ],
+   "entrance": [
+    106,
+    182
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 443,
+   "island": 0,
+   "rect": [
+    110,
+    173,
+    5,
+    10
+   ],
+   "entrance": [
+    112,
+    182
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 444,
+   "island": 0,
+   "rect": [
+    115,
+    173,
+    5,
+    10
+   ],
+   "entrance": [
+    117,
+    182
+   ],
+   "purposes": [
+    "nightclub"
+   ],
+   "home_capacity": 0,
+   "jobs": 10
+  },
+  {
+   "id": 445,
+   "island": 2,
+   "rect": [
+    136,
+    179,
+    5,
+    7
+   ],
+   "entrance": [
+    138,
+    179
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 446,
+   "island": 2,
+   "rect": [
+    141,
+    179,
+    5,
+    7
+   ],
+   "entrance": [
+    143,
+    179
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 447,
+   "island": 2,
+   "rect": [
+    146,
+    179,
+    7,
+    7
+   ],
+   "entrance": [
+    149,
+    179
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 448,
+   "island": 2,
+   "rect": [
+    153,
+    179,
+    5,
+    7
+   ],
+   "entrance": [
+    155,
+    179
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 7
+  },
+  {
+   "id": 449,
+   "island": 2,
+   "rect": [
+    162,
+    179,
+    5,
+    7
+   ],
+   "entrance": [
+    164,
+    179
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 7
+  },
+  {
+   "id": 450,
+   "island": 2,
+   "rect": [
+    167,
+    179,
+    8,
+    7
+   ],
+   "entrance": [
+    170,
+    179
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 11
+  },
+  {
+   "id": 451,
+   "island": 2,
+   "rect": [
+    179,
+    179,
+    23,
+    14
+   ],
+   "entrance": [
+    190,
+    179
+   ],
+   "purposes": [
+    "mall"
+   ],
+   "home_capacity": 0,
+   "jobs": 60
+  },
+  {
+   "id": 452,
+   "island": 2,
+   "rect": [
+    206,
+    179,
+    17,
+    14
+   ],
+   "entrance": [
+    214,
+    179
+   ],
+   "purposes": [
+    "school"
+   ],
+   "home_capacity": 0,
+   "jobs": 25
+  },
+  {
+   "id": 453,
+   "island": 2,
+   "rect": [
+    227,
+    179,
+    9,
+    7
+   ],
+   "entrance": [
+    231,
+    179
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 454,
+   "island": 2,
+   "rect": [
+    236,
+    179,
+    5,
+    7
+   ],
+   "entrance": [
+    238,
+    179
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 7
+  },
+  {
+   "id": 455,
+   "island": 2,
+   "rect": [
+    241,
+    179,
+    5,
+    7
+   ],
+   "entrance": [
+    243,
+    179
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 456,
+   "island": 2,
+   "rect": [
+    136,
+    186,
+    6,
+    7
+   ],
+   "entrance": [
+    138,
+    192
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 457,
+   "island": 2,
+   "rect": [
+    142,
+    186,
+    8,
+    7
+   ],
+   "entrance": [
+    145,
+    192
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 458,
+   "island": 2,
+   "rect": [
+    150,
+    186,
+    8,
+    7
+   ],
+   "entrance": [
+    153,
+    192
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 459,
+   "island": 2,
+   "rect": [
+    162,
+    186,
+    6,
+    7
+   ],
+   "entrance": [
+    164,
+    192
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 460,
+   "island": 2,
+   "rect": [
+    168,
+    186,
+    7,
+    7
+   ],
+   "entrance": [
+    171,
+    192
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 9
+  },
+  {
+   "id": 461,
+   "island": 2,
+   "rect": [
+    227,
+    186,
+    8,
+    7
+   ],
+   "entrance": [
+    230,
+    192
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 11
+  },
+  {
+   "id": 462,
+   "island": 2,
+   "rect": [
+    235,
+    186,
+    6,
+    7
+   ],
+   "entrance": [
+    237,
+    192
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 463,
+   "island": 2,
+   "rect": [
+    241,
+    186,
+    5,
+    7
+   ],
+   "entrance": [
+    243,
+    192
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 464,
+   "island": 0,
+   "rect": [
+    10,
+    187,
+    5,
+    6
+   ],
+   "entrance": [
+    12,
+    187
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 6
+  },
+  {
+   "id": 465,
+   "island": 0,
+   "rect": [
+    15,
+    187,
+    8,
+    6
+   ],
+   "entrance": [
+    18,
+    187
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 466,
+   "island": 0,
+   "rect": [
+    27,
+    187,
+    9,
+    6
+   ],
+   "entrance": [
+    31,
+    187
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 467,
+   "island": 0,
+   "rect": [
+    36,
+    187,
+    8,
+    6
+   ],
+   "entrance": [
+    39,
+    187
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 468,
+   "island": 0,
+   "rect": [
+    48,
+    187,
+    6,
+    6
+   ],
+   "entrance": [
+    50,
+    187
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 7
+  },
+  {
+   "id": 469,
+   "island": 0,
+   "rect": [
+    54,
+    187,
+    6,
+    6
+   ],
+   "entrance": [
+    56,
+    187
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 7
+  },
+  {
+   "id": 470,
+   "island": 0,
+   "rect": [
+    60,
+    187,
+    8,
+    6
+   ],
+   "entrance": [
+    63,
+    187
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 471,
+   "island": 0,
+   "rect": [
+    72,
+    187,
+    8,
+    6
+   ],
+   "entrance": [
+    75,
+    187
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 472,
+   "island": 0,
+   "rect": [
+    80,
+    187,
+    7,
+    6
+   ],
+   "entrance": [
+    83,
+    187
+   ],
+   "purposes": [
+    "restaurant"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 473,
+   "island": 0,
+   "rect": [
+    87,
+    187,
+    5,
+    6
+   ],
+   "entrance": [
+    89,
+    187
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 474,
+   "island": 0,
+   "rect": [
+    96,
+    187,
+    8,
+    6
+   ],
+   "entrance": [
+    99,
+    187
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 475,
+   "island": 0,
+   "rect": [
+    104,
+    187,
+    7,
+    6
+   ],
+   "entrance": [
+    107,
+    187
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 476,
+   "island": 0,
+   "rect": [
+    111,
+    187,
+    9,
+    6
+   ],
+   "entrance": [
+    115,
+    187
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 477,
+   "island": 0,
+   "rect": [
+    10,
+    193,
+    6,
+    6
+   ],
+   "entrance": [
+    12,
+    198
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 7
+  },
+  {
+   "id": 478,
+   "island": 0,
+   "rect": [
+    16,
+    193,
+    7,
+    6
+   ],
+   "entrance": [
+    19,
+    198
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 479,
+   "island": 0,
+   "rect": [
+    27,
+    193,
+    6,
+    6
+   ],
+   "entrance": [
+    29,
+    198
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 7
+  },
+  {
+   "id": 480,
+   "island": 0,
+   "rect": [
+    33,
+    193,
+    5,
+    6
+   ],
+   "entrance": [
+    35,
+    198
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 481,
+   "island": 0,
+   "rect": [
+    38,
+    193,
+    6,
+    6
+   ],
+   "entrance": [
+    40,
+    198
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 482,
+   "island": 0,
+   "rect": [
+    48,
+    193,
+    8,
+    6
+   ],
+   "entrance": [
+    51,
+    198
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 9
+  },
+  {
+   "id": 483,
+   "island": 0,
+   "rect": [
+    56,
+    193,
+    6,
+    6
+   ],
+   "entrance": [
+    58,
+    198
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 484,
+   "island": 0,
+   "rect": [
+    62,
+    193,
+    6,
+    6
+   ],
+   "entrance": [
+    64,
+    198
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 485,
+   "island": 0,
+   "rect": [
+    72,
+    193,
+    8,
+    6
+   ],
+   "entrance": [
+    75,
+    198
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 486,
+   "island": 0,
+   "rect": [
+    80,
+    193,
+    5,
+    6
+   ],
+   "entrance": [
+    82,
+    198
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 487,
+   "island": 0,
+   "rect": [
+    85,
+    193,
+    7,
+    6
+   ],
+   "entrance": [
+    88,
+    198
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 488,
+   "island": 0,
+   "rect": [
+    96,
+    193,
+    6,
+    6
+   ],
+   "entrance": [
+    98,
+    198
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 7
+  },
+  {
+   "id": 489,
+   "island": 0,
+   "rect": [
+    102,
+    193,
+    7,
+    6
+   ],
+   "entrance": [
+    105,
+    198
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 490,
+   "island": 0,
+   "rect": [
+    109,
+    193,
+    5,
+    6
+   ],
+   "entrance": [
+    111,
+    198
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 491,
+   "island": 0,
+   "rect": [
+    114,
+    193,
+    6,
+    6
+   ],
+   "entrance": [
+    116,
+    198
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 3,
+   "jobs": 0
+  },
+  {
+   "id": 492,
+   "island": 2,
+   "rect": [
+    136,
+    197,
+    6,
+    11
+   ],
+   "entrance": [
+    138,
+    197
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 493,
+   "island": 2,
+   "rect": [
+    142,
+    197,
+    9,
+    11
+   ],
+   "entrance": [
+    146,
+    197
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 9,
+   "jobs": 0
+  },
+  {
+   "id": 494,
+   "island": 2,
+   "rect": [
+    151,
+    197,
+    7,
+    11
+   ],
+   "entrance": [
+    154,
+    197
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 15
+  },
+  {
+   "id": 495,
+   "island": 2,
+   "rect": [
+    162,
+    197,
+    6,
+    11
+   ],
+   "entrance": [
+    164,
+    197
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 13
+  },
+  {
+   "id": 496,
+   "island": 2,
+   "rect": [
+    168,
+    197,
+    7,
+    11
+   ],
+   "entrance": [
+    171,
+    197
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 15
+  },
+  {
+   "id": 497,
+   "island": 2,
+   "rect": [
+    179,
+    197,
+    7,
+    11
+   ],
+   "entrance": [
+    182,
+    197
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 15
+  },
+  {
+   "id": 498,
+   "island": 2,
+   "rect": [
+    186,
+    197,
+    8,
+    11
+   ],
+   "entrance": [
+    189,
+    197
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 499,
+   "island": 2,
+   "rect": [
+    194,
+    197,
+    8,
+    11
+   ],
+   "entrance": [
+    197,
+    197
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 500,
+   "island": 2,
+   "rect": [
+    206,
+    197,
+    8,
+    11
+   ],
+   "entrance": [
+    209,
+    197
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 501,
+   "island": 2,
+   "rect": [
+    214,
+    197,
+    9,
+    11
+   ],
+   "entrance": [
+    218,
+    197
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 19
+  },
+  {
+   "id": 502,
+   "island": 2,
+   "rect": [
+    227,
+    197,
+    7,
+    11
+   ],
+   "entrance": [
+    230,
+    197
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 15
+  },
+  {
+   "id": 503,
+   "island": 2,
+   "rect": [
+    234,
+    197,
+    5,
+    11
+   ],
+   "entrance": [
+    236,
+    197
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 504,
+   "island": 2,
+   "rect": [
+    239,
+    197,
+    7,
+    11
+   ],
+   "entrance": [
+    242,
+    197
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 15
+  },
+  {
+   "id": 505,
+   "island": 0,
+   "rect": [
+    10,
+    203,
+    7,
+    11
+   ],
+   "entrance": [
+    13,
+    203
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 15
+  },
+  {
+   "id": 506,
+   "island": 0,
+   "rect": [
+    17,
+    203,
+    6,
+    11
+   ],
+   "entrance": [
+    19,
+    203
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 13
+  },
+  {
+   "id": 507,
+   "island": 0,
+   "rect": [
+    27,
+    203,
+    8,
+    11
+   ],
+   "entrance": [
+    30,
+    203
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 508,
+   "island": 0,
+   "rect": [
+    35,
+    203,
+    9,
+    11
+   ],
+   "entrance": [
+    39,
+    203
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 9,
+   "jobs": 0
+  },
+  {
+   "id": 509,
+   "island": 0,
+   "rect": [
+    48,
+    203,
+    7,
+    11
+   ],
+   "entrance": [
+    51,
+    203
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 15
+  },
+  {
+   "id": 510,
+   "island": 0,
+   "rect": [
+    55,
+    203,
+    8,
+    11
+   ],
+   "entrance": [
+    58,
+    203
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 511,
+   "island": 0,
+   "rect": [
+    63,
+    203,
+    5,
+    11
+   ],
+   "entrance": [
+    65,
+    203
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 512,
+   "island": 0,
+   "rect": [
+    72,
+    203,
+    9,
+    11
+   ],
+   "entrance": [
+    76,
+    203
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 9,
+   "jobs": 0
+  },
+  {
+   "id": 513,
+   "island": 0,
+   "rect": [
+    81,
+    203,
+    6,
+    11
+   ],
+   "entrance": [
+    83,
+    203
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 514,
+   "island": 0,
+   "rect": [
+    87,
+    203,
+    5,
+    11
+   ],
+   "entrance": [
+    89,
+    203
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 515,
+   "island": 0,
+   "rect": [
+    96,
+    203,
+    9,
+    11
+   ],
+   "entrance": [
+    100,
+    203
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 9,
+   "jobs": 0
+  },
+  {
+   "id": 516,
+   "island": 0,
+   "rect": [
+    105,
+    203,
+    9,
+    11
+   ],
+   "entrance": [
+    109,
+    203
+   ],
+   "purposes": [
+    "restaurant"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 517,
+   "island": 0,
+   "rect": [
+    114,
+    203,
+    6,
+    11
+   ],
+   "entrance": [
+    116,
+    203
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 518,
+   "island": 2,
+   "rect": [
+    136,
+    208,
+    7,
+    11
+   ],
+   "entrance": [
+    139,
+    218
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 15
+  },
+  {
+   "id": 519,
+   "island": 2,
+   "rect": [
+    143,
+    208,
+    7,
+    11
+   ],
+   "entrance": [
+    146,
+    218
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 7,
+   "jobs": 0
+  },
+  {
+   "id": 520,
+   "island": 2,
+   "rect": [
+    150,
+    208,
+    8,
+    11
+   ],
+   "entrance": [
+    153,
+    218
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 521,
+   "island": 2,
+   "rect": [
+    162,
+    208,
+    7,
+    11
+   ],
+   "entrance": [
+    165,
+    218
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 7,
+   "jobs": 0
+  },
+  {
+   "id": 522,
+   "island": 2,
+   "rect": [
+    169,
+    208,
+    6,
+    11
+   ],
+   "entrance": [
+    171,
+    218
+   ],
+   "purposes": [
+    "restaurant"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 523,
+   "island": 2,
+   "rect": [
+    179,
+    208,
+    8,
+    11
+   ],
+   "entrance": [
+    182,
+    218
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 524,
+   "island": 2,
+   "rect": [
+    187,
+    208,
+    9,
+    11
+   ],
+   "entrance": [
+    191,
+    218
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 19
+  },
+  {
+   "id": 525,
+   "island": 2,
+   "rect": [
+    196,
+    208,
+    6,
+    11
+   ],
+   "entrance": [
+    198,
+    218
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 526,
+   "island": 2,
+   "rect": [
+    206,
+    208,
+    9,
+    11
+   ],
+   "entrance": [
+    210,
+    218
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 9,
+   "jobs": 0
+  },
+  {
+   "id": 527,
+   "island": 2,
+   "rect": [
+    215,
+    208,
+    8,
+    11
+   ],
+   "entrance": [
+    218,
+    218
+   ],
+   "purposes": [
+    "nightclub"
+   ],
+   "home_capacity": 0,
+   "jobs": 10
+  },
+  {
+   "id": 528,
+   "island": 2,
+   "rect": [
+    227,
+    208,
+    6,
+    11
+   ],
+   "entrance": [
+    229,
+    218
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 529,
+   "island": 2,
+   "rect": [
+    233,
+    208,
+    8,
+    11
+   ],
+   "entrance": [
+    236,
+    218
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 17
+  },
+  {
+   "id": 530,
+   "island": 2,
+   "rect": [
+    241,
+    208,
+    5,
+    11
+   ],
+   "entrance": [
+    243,
+    218
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 531,
+   "island": 0,
+   "rect": [
+    10,
+    214,
+    8,
+    11
+   ],
+   "entrance": [
+    13,
+    224
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 532,
+   "island": 0,
+   "rect": [
+    18,
+    214,
+    5,
+    11
+   ],
+   "entrance": [
+    20,
+    224
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 11
+  },
+  {
+   "id": 533,
+   "island": 0,
+   "rect": [
+    27,
+    214,
+    8,
+    11
+   ],
+   "entrance": [
+    30,
+    224
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 534,
+   "island": 0,
+   "rect": [
+    35,
+    214,
+    9,
+    11
+   ],
+   "entrance": [
+    39,
+    224
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 9,
+   "jobs": 0
+  },
+  {
+   "id": 535,
+   "island": 0,
+   "rect": [
+    48,
+    214,
+    6,
+    11
+   ],
+   "entrance": [
+    50,
+    224
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 13
+  },
+  {
+   "id": 536,
+   "island": 0,
+   "rect": [
+    54,
+    214,
+    7,
+    11
+   ],
+   "entrance": [
+    57,
+    224
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 7,
+   "jobs": 0
+  },
+  {
+   "id": 537,
+   "island": 0,
+   "rect": [
+    61,
+    214,
+    7,
+    11
+   ],
+   "entrance": [
+    64,
+    224
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 7,
+   "jobs": 0
+  },
+  {
+   "id": 538,
+   "island": 0,
+   "rect": [
+    72,
+    214,
+    8,
+    11
+   ],
+   "entrance": [
+    75,
+    224
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 539,
+   "island": 0,
+   "rect": [
+    80,
+    214,
+    5,
+    11
+   ],
+   "entrance": [
+    82,
+    224
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 540,
+   "island": 0,
+   "rect": [
+    85,
+    214,
+    7,
+    11
+   ],
+   "entrance": [
+    88,
+    224
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 7,
+   "jobs": 0
+  },
+  {
+   "id": 541,
+   "island": 0,
+   "rect": [
+    96,
+    214,
+    7,
+    11
+   ],
+   "entrance": [
+    99,
+    224
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 15
+  },
+  {
+   "id": 542,
+   "island": 0,
+   "rect": [
+    103,
+    214,
+    5,
+    11
+   ],
+   "entrance": [
+    105,
+    224
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 543,
+   "island": 0,
+   "rect": [
+    108,
+    214,
+    5,
+    11
+   ],
+   "entrance": [
+    110,
+    224
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 544,
+   "island": 0,
+   "rect": [
+    113,
+    214,
+    7,
+    11
+   ],
+   "entrance": [
+    116,
+    224
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 15
+  },
+  {
+   "id": 545,
+   "island": 2,
+   "rect": [
+    136,
+    223,
+    6,
+    11
+   ],
+   "entrance": [
+    138,
+    223
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 546,
+   "island": 2,
+   "rect": [
+    142,
+    223,
+    8,
+    11
+   ],
+   "entrance": [
+    145,
+    223
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 547,
+   "island": 2,
+   "rect": [
+    150,
+    223,
+    8,
+    11
+   ],
+   "entrance": [
+    153,
+    223
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 17
+  },
+  {
+   "id": 548,
+   "island": 2,
+   "rect": [
+    162,
+    223,
+    5,
+    11
+   ],
+   "entrance": [
+    164,
+    223
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 549,
+   "island": 2,
+   "rect": [
+    167,
+    223,
+    8,
+    11
+   ],
+   "entrance": [
+    170,
+    223
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 17
+  },
+  {
+   "id": 550,
+   "island": 2,
+   "rect": [
+    179,
+    223,
+    5,
+    11
+   ],
+   "entrance": [
+    181,
+    223
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 551,
+   "island": 2,
+   "rect": [
+    184,
+    223,
+    7,
+    11
+   ],
+   "entrance": [
+    187,
+    223
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 15
+  },
+  {
+   "id": 552,
+   "island": 2,
+   "rect": [
+    191,
+    223,
+    6,
+    11
+   ],
+   "entrance": [
+    193,
+    223
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 553,
+   "island": 2,
+   "rect": [
+    197,
+    223,
+    5,
+    11
+   ],
+   "entrance": [
+    199,
+    223
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 11
+  },
+  {
+   "id": 554,
+   "island": 2,
+   "rect": [
+    206,
+    223,
+    6,
+    11
+   ],
+   "entrance": [
+    208,
+    223
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 555,
+   "island": 2,
+   "rect": [
+    212,
+    223,
+    5,
+    11
+   ],
+   "entrance": [
+    214,
+    223
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 556,
+   "island": 2,
+   "rect": [
+    217,
+    223,
+    6,
+    11
+   ],
+   "entrance": [
+    219,
+    223
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 557,
+   "island": 2,
+   "rect": [
+    227,
+    223,
+    6,
+    11
+   ],
+   "entrance": [
+    229,
+    223
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 13
+  },
+  {
+   "id": 558,
+   "island": 2,
+   "rect": [
+    233,
+    223,
+    7,
+    11
+   ],
+   "entrance": [
+    236,
+    223
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 15
+  },
+  {
+   "id": 559,
+   "island": 2,
+   "rect": [
+    240,
+    223,
+    6,
+    11
+   ],
+   "entrance": [
+    242,
+    223
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 560,
+   "island": 0,
+   "rect": [
+    10,
+    229,
+    6,
+    8
+   ],
+   "entrance": [
+    12,
+    229
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 561,
+   "island": 0,
+   "rect": [
+    16,
+    229,
+    7,
+    8
+   ],
+   "entrance": [
+    19,
+    229
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 562,
+   "island": 0,
+   "rect": [
+    27,
+    229,
+    17,
+    17
+   ],
+   "entrance": [
+    35,
+    229
+   ],
+   "purposes": [
+    "mall"
+   ],
+   "home_capacity": 0,
+   "jobs": 60
+  },
+  {
+   "id": 563,
+   "island": 0,
+   "rect": [
+    48,
+    229,
+    5,
+    8
+   ],
+   "entrance": [
+    50,
+    229
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 564,
+   "island": 0,
+   "rect": [
+    53,
+    229,
+    8,
+    8
+   ],
+   "entrance": [
+    56,
+    229
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 565,
+   "island": 0,
+   "rect": [
+    61,
+    229,
+    7,
+    8
+   ],
+   "entrance": [
+    64,
+    229
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 566,
+   "island": 0,
+   "rect": [
+    72,
+    229,
+    9,
+    8
+   ],
+   "entrance": [
+    76,
+    229
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 14
+  },
+  {
+   "id": 567,
+   "island": 0,
+   "rect": [
+    81,
+    229,
+    5,
+    8
+   ],
+   "entrance": [
+    83,
+    229
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 568,
+   "island": 0,
+   "rect": [
+    86,
+    229,
+    6,
+    8
+   ],
+   "entrance": [
+    88,
+    229
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 9
+  },
+  {
+   "id": 569,
+   "island": 0,
+   "rect": [
+    96,
+    229,
+    6,
+    8
+   ],
+   "entrance": [
+    98,
+    229
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 570,
+   "island": 0,
+   "rect": [
+    102,
+    229,
+    7,
+    8
+   ],
+   "entrance": [
+    105,
+    229
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 5,
+   "jobs": 0
+  },
+  {
+   "id": 571,
+   "island": 0,
+   "rect": [
+    109,
+    229,
+    5,
+    8
+   ],
+   "entrance": [
+    111,
+    229
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 572,
+   "island": 0,
+   "rect": [
+    114,
+    229,
+    6,
+    8
+   ],
+   "entrance": [
+    116,
+    229
+   ],
+   "purposes": [
+    "restaurant"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 573,
+   "island": 2,
+   "rect": [
+    136,
+    234,
+    5,
+    12
+   ],
+   "entrance": [
+    138,
+    245
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 12
+  },
+  {
+   "id": 574,
+   "island": 2,
+   "rect": [
+    141,
+    234,
+    7,
+    12
+   ],
+   "entrance": [
+    144,
+    245
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 575,
+   "island": 2,
+   "rect": [
+    148,
+    234,
+    5,
+    12
+   ],
+   "entrance": [
+    150,
+    245
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 576,
+   "island": 2,
+   "rect": [
+    153,
+    234,
+    5,
+    12
+   ],
+   "entrance": [
+    155,
+    245
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 12
+  },
+  {
+   "id": 577,
+   "island": 2,
+   "rect": [
+    162,
+    234,
+    6,
+    12
+   ],
+   "entrance": [
+    164,
+    245
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 14
+  },
+  {
+   "id": 578,
+   "island": 2,
+   "rect": [
+    168,
+    234,
+    7,
+    12
+   ],
+   "entrance": [
+    171,
+    245
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 16
+  },
+  {
+   "id": 579,
+   "island": 2,
+   "rect": [
+    179,
+    234,
+    9,
+    12
+   ],
+   "entrance": [
+    183,
+    245
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 21
+  },
+  {
+   "id": 580,
+   "island": 2,
+   "rect": [
+    188,
+    234,
+    7,
+    12
+   ],
+   "entrance": [
+    191,
+    245
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 16
+  },
+  {
+   "id": 581,
+   "island": 2,
+   "rect": [
+    195,
+    234,
+    7,
+    12
+   ],
+   "entrance": [
+    198,
+    245
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 582,
+   "island": 2,
+   "rect": [
+    206,
+    234,
+    5,
+    12
+   ],
+   "entrance": [
+    208,
+    245
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 12
+  },
+  {
+   "id": 583,
+   "island": 2,
+   "rect": [
+    211,
+    234,
+    7,
+    12
+   ],
+   "entrance": [
+    214,
+    245
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 584,
+   "island": 2,
+   "rect": [
+    218,
+    234,
+    5,
+    12
+   ],
+   "entrance": [
+    220,
+    245
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 585,
+   "island": 2,
+   "rect": [
+    227,
+    234,
+    9,
+    12
+   ],
+   "entrance": [
+    231,
+    245
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 10,
+   "jobs": 0
+  },
+  {
+   "id": 586,
+   "island": 2,
+   "rect": [
+    236,
+    234,
+    5,
+    12
+   ],
+   "entrance": [
+    238,
+    245
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 587,
+   "island": 2,
+   "rect": [
+    241,
+    234,
+    5,
+    12
+   ],
+   "entrance": [
+    243,
+    245
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 588,
+   "island": 0,
+   "rect": [
+    10,
+    237,
+    5,
+    9
+   ],
+   "entrance": [
+    12,
+    245
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 9
+  },
+  {
+   "id": 589,
+   "island": 0,
+   "rect": [
+    15,
+    237,
+    8,
+    9
+   ],
+   "entrance": [
+    18,
+    245
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 14
+  },
+  {
+   "id": 590,
+   "island": 0,
+   "rect": [
+    48,
+    237,
+    7,
+    9
+   ],
+   "entrance": [
+    51,
+    245
+   ],
+   "purposes": [
+    "restaurant"
+   ],
+   "home_capacity": 0,
+   "jobs": 8
+  },
+  {
+   "id": 591,
+   "island": 0,
+   "rect": [
+    55,
+    237,
+    8,
+    9
+   ],
+   "entrance": [
+    58,
+    245
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 7,
+   "jobs": 0
+  },
+  {
+   "id": 592,
+   "island": 0,
+   "rect": [
+    63,
+    237,
+    5,
+    9
+   ],
+   "entrance": [
+    65,
+    245
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 593,
+   "island": 0,
+   "rect": [
+    72,
+    237,
+    5,
+    9
+   ],
+   "entrance": [
+    74,
+    245
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 594,
+   "island": 0,
+   "rect": [
+    77,
+    237,
+    7,
+    9
+   ],
+   "entrance": [
+    80,
+    245
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 6,
+   "jobs": 0
+  },
+  {
+   "id": 595,
+   "island": 0,
+   "rect": [
+    84,
+    237,
+    8,
+    9
+   ],
+   "entrance": [
+    87,
+    245
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 7,
+   "jobs": 0
+  },
+  {
+   "id": 596,
+   "island": 0,
+   "rect": [
+    96,
+    237,
+    5,
+    9
+   ],
+   "entrance": [
+    98,
+    245
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  },
+  {
+   "id": 597,
+   "island": 0,
+   "rect": [
+    101,
+    237,
+    9,
+    9
+   ],
+   "entrance": [
+    105,
+    245
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 8,
+   "jobs": 0
+  },
+  {
+   "id": 598,
+   "island": 0,
+   "rect": [
+    110,
+    237,
+    5,
+    9
+   ],
+   "entrance": [
+    112,
+    245
+   ],
+   "purposes": [
+    "workplace"
+   ],
+   "home_capacity": 0,
+   "jobs": 9
+  },
+  {
+   "id": 599,
+   "island": 0,
+   "rect": [
+    115,
+    237,
+    5,
+    9
+   ],
+   "entrance": [
+    117,
+    245
+   ],
+   "purposes": [
+    "home"
+   ],
+   "home_capacity": 4,
+   "jobs": 0
+  }
+ ]
+}

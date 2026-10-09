@@ -4,10 +4,16 @@
 **Depends on:** 02.
 
 ## Build
-File `data/buildings.json`, written by `tools/make_map.py` together with `map.png`. One entry per building:
+File `data/buildings.json`, written by `tools/make_map.py` together with `map.png`:
 ```json
-{"id": 17, "rect": [x, y, w, h], "entrance": [x, y], "purposes": ["home"], "home_capacity": 6, "jobs": 0}
+{
+  "seed": 2026,
+  "islands":   [{"id": 0, "rect": [x, y, w, h]}],
+  "bridges":   [{"id": 0, "rect": [x, y, w, h]}],
+  "buildings": [{"id": 17, "island": 0, "rect": [x, y, w, h], "entrance": [x, y], "purposes": ["home"], "home_capacity": 6, "jobs": 0}]
+}
 ```
+Building ids run 0..n-1 in file order. Bridge rects cover only the part over water.
 Rules:
 - `rect` covers only BUILDING tiles. Buildings don't overlap. Every BUILDING tile belongs to exactly one building.
 - `entrance` is a tile inside `rect` that touches a SIDEWALK tile (4-neighbour).
@@ -22,8 +28,8 @@ City mix (enforced by `make_map.py`):
 - Total `home_capacity` ≥ 1.2 × `population`.
 - Total `jobs` ≥ the number of workers spec 05 will create.
 
-Runtime registry `Buildings` (`scripts/world/buildings.gd`):
-`get(id)`, `with_purpose(p) -> Array`, `at_tile(x, y) -> id or -1`, `is_closed(id)`, `set_closed(id, bool)` (default open; used by 12 and 13).
+Runtime: `Building` (`scripts/world/building.gd`) and `BuildingRegistry` (`scripts/world/building_registry.gd`), reachable as `World.buildings` (autoload `World` also holds `World.map`):
+`by_id(id)` (not `get`, which every Godot Object already has), `with_purpose(p) -> Array[Building]`, `at_tile(x, y) -> id or -1`, `is_closed(id)`, `set_closed(id, bool)` (default open; used by 12 and 13).
 
 Drawing: building tiles tinted by first purpose. Malls must stand out. Colours live in spec 12's legend.
 

@@ -22,9 +22,10 @@ Making the map: `tools/make_map.py` (Python + Pillow, fixed seed) writes `map.pn
 - Each island has a road grid: roads 2 tiles wide, 1 sidewalk tile on each side, blocks 12–24 tiles across.
 - Block interiors are BUILDING tiles.
 
-Loader `scripts/world/map.gd`: `tile(x, y) -> TileType`, `size = 256`, `island_of(x, y) -> int` (flood-fill label, -1 for water).
+Loader `scripts/world/city_map.gd` (`CityMap`): `tile(x, y) -> TileType`, `SIZE = 256`, `island_of(x, y) -> int` (-1 for water and bridges). Island and bridge rects come from `data/buildings.json` (spec 03), because bridges join the land into one piece.
+`data/` has a `.gdignore`, so Godot doesn't import the PNG; it's read as raw bytes.
 
-Drawing: `TileMapLayer` with 4 flat-colour tiles, 16 px per tile. `Camera2D`: drag to pan, mouse wheel zooms 0.25×–4×, starts framing the whole map.
+Drawing: `TileMapLayer` with 4 flat-colour tiles, 16 px per tile. `Camera2D`: right- or middle-drag to pan (left click is kept for selecting in spec 12), mouse wheel zooms around the cursor from fit-to-map up to 4×, starts framing the whole map.
 
 ## Not in this spec
 Building purposes (03), textures, animation.

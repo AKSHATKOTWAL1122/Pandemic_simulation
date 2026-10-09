@@ -13,6 +13,7 @@ config/features=PackedStringArray("4.7")
 Config="*res://scripts/core/config.gd"
 SimClock="*res://scripts/core/sim_clock.gd"
 Rng="*res://scripts/core/rng.gd"
+World="*res://scripts/world/world.gd"
 
 [display]
 
