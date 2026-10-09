@@ -30,5 +30,8 @@
 	"min_outing_minutes": 60,
 	"drive_speed_kmh": 30,
 	"drive_min_tiles": 30,
-	"car_pickup_radius": 3
+	"car_pickup_radius": 3,
+	"virus": {
+		"infection_radius_m": 2.0
+	}
 }

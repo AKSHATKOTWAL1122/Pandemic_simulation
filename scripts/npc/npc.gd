@@ -45,6 +45,9 @@ var asleep: bool = false
 ## Spec 09: driving a car.
 var in_car: bool = false
 
+## Spec 10: number of encounters with anyone so far.
+var contact_count: int = 0
+
 
 ## Shown as npc_000.
 func label() -> String:

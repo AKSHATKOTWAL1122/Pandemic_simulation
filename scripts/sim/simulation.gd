@@ -13,6 +13,7 @@ var timetable: Timetable
 var desires: Desires
 var fleet: CarFleet
 var behaviour: NpcBehaviour
+var contacts: ContactTracker
 
 
 func _init(p_config: ConfigStore, p_rng: SeededRng, p_clock: GameClock, p_buildings: BuildingRegistry, p_paths: Paths) -> void:
@@ -28,6 +29,7 @@ func _init(p_config: ConfigStore, p_rng: SeededRng, p_clock: GameClock, p_buildi
 	desires = Desires.new(config, buildings, population.npcs, rng)
 	fleet = CarFleet.create(population, buildings, paths)
 	behaviour = NpcBehaviour.new(config, clock, rng, buildings, paths, population, timetable, desires, fleet)
+	contacts = ContactTracker.new(config, population.npcs)
 
 
 ## Builds a self-contained run (own RNG, clock and buildings) for tests and batch runs.
@@ -38,7 +40,9 @@ static func standalone(p_config: ConfigStore) -> Simulation:
 
 
 func step() -> void:
-	behaviour.step(clock.tick)
+	var tick := clock.tick
+	behaviour.step(tick)
+	contacts.step(tick)
 	clock.advance()
 
 
