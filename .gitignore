@@ -1,0 +1,15 @@
+# Godot
+.godot/
+*.uid.tmp
+# Run results
+output/
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+# macOS
+.DS_Store
+
+# Reference transcript (third-party; kept local)
+context.txt

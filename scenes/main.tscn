@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/core/sim.gd" id="1_sim"]
+[ext_resource type="Script" path="res://scripts/ui/time_label.gd" id="2_label"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Sim" type="Node" parent="."]
+script = ExtResource("1_sim")
+
+[node name="HUD" type="CanvasLayer" parent="."]
+
+[node name="TimeLabel" type="Label" parent="HUD"]
+offset_left = 12.0
+offset_top = 8.0
+offset_right = 260.0
+offset_bottom = 34.0
+text = "Day 0 Mon 00:00"
+script = ExtResource("2_label")

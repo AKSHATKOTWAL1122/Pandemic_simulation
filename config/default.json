@@ -1,0 +1,7 @@
+{
+	"seed": 12345,
+	"tick_seconds": 60,
+	"days": 30,
+	"population": 1000,
+	"ticks_per_frame": 1
+}
