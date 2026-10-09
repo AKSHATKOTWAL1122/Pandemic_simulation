@@ -24,6 +24,10 @@ static func generate(rng: SeededRng, buildings: BuildingRegistry, config: Config
 	var jitter := config.get_int("jitter_minutes")
 	for npc in pop.npcs:
 		Timetable.draw_jitter(npc, rng, jitter)
+	# Step 10 (spec 07): starting needs.
+	var start_range: Array = config.get_value("need_start_range")
+	for npc in pop.npcs:
+		Desires.init_needs(npc, rng, start_range)
 	return pop
 
 

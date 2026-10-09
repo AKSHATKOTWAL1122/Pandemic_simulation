@@ -17,6 +17,8 @@ var pos: Vector2 = Vector2.ZERO
 ## (SLEEP, WORK, SCHOOL). Drawn once at creation.
 var jitter_start := PackedInt32Array([0, 0, 0])
 var jitter_end := PackedInt32Array([0, 0, 0])
+## Spec 07: 0..100, indexed by Desires.Need (HUNGER, FUN, SOCIAL, SHOPPING).
+var needs := PackedFloat64Array([0.0, 0.0, 0.0, 0.0])
 
 
 ## Shown as npc_000.
@@ -37,7 +39,7 @@ func place_id() -> int:
 
 ## One deterministic line with every field, for comparing populations.
 func serialize() -> String:
-	return "%s hh=%d home=%d occ=%s work=%d school=%d friends=%s pos=%s jitter=%s/%s" % [
+	return "%s hh=%d home=%d occ=%s work=%d school=%d friends=%s pos=%s jitter=%s/%s needs=%s" % [
 		label(), household_id, home_id, occupation_name(), work_id, school_id,
-		friends, var_to_str(pos), jitter_start, jitter_end,
+		friends, var_to_str(pos), jitter_start, jitter_end, var_to_str(needs),
 	]

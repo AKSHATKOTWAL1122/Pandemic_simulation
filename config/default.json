@@ -13,5 +13,13 @@
 	"sleep_hours": [23, 7],
 	"work_hours": [9, 17],
 	"school_hours": [8, 15],
-	"jitter_minutes": 30
+	"jitter_minutes": 30,
+	"need_growth_per_hour": { "hunger": 6, "fun": 4, "social": 4, "shopping": 2 },
+	"need_threshold": 50,
+	"need_start_range": [0, 50],
+	"stay_minutes": { "restaurant": 60, "nightclub": 120, "mall": 90, "friend_home": 120, "home": 60 },
+	"candidate_count": 5,
+	"hunger_restaurant_share": 0.7,
+	"social_destination_weights": { "friend_home": 50, "restaurant": 25, "nightclub": 25 },
+	"nightclub_hours": [19, 3]
 }
